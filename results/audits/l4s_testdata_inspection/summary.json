@@ -1,0 +1,163 @@
+{
+  "source_split": "TestData",
+  "images": 800,
+  "masks": 800,
+  "audited": 800,
+  "errors": [],
+  "images_without_masks": [],
+  "masks_without_images": [],
+  "shapes": {
+    "(128, 128, 14)": 800
+  },
+  "dtypes": {
+    "float64": 800
+  },
+  "mask_shapes": {
+    "(128, 128)": 800
+  },
+  "mask_dtypes": {
+    "uint8": 800
+  },
+  "mask_values": {
+    "0": 12859669,
+    "1": 247531
+  },
+  "labels": {
+    "1": 536,
+    "0": 264
+  },
+  "nonfinite_samples": [],
+  "invalid_masks": [],
+  "duplicate_image_groups": [],
+  "bands": {
+    "0": {
+      "min": 0.0,
+      "max": 3.1111364757347957,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "1": {
+      "min": 0.0,
+      "max": 10.215469341306758,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "2": {
+      "min": 0.0,
+      "max": 16.541648089752602,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "3": {
+      "min": 0.0,
+      "max": 28.36201411254624,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "4": {
+      "min": 0.0,
+      "max": 12.812408069714083,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "5": {
+      "min": 0.0,
+      "max": 7.673793883596034,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "6": {
+      "min": 0.0,
+      "max": 7.408015697385777,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "7": {
+      "min": 0.0,
+      "max": 5.120221416608224,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "8": {
+      "min": 0.0,
+      "max": 5.1018006639809315,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "9": {
+      "min": 0.0,
+      "max": 60.23514580747072,
+      "nan": 0,
+      "inf": 0,
+      "zero": 542,
+      "constant_images": 0
+    },
+    "10": {
+      "min": 0.0,
+      "max": 6.258621158914785,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "11": {
+      "min": 0.0,
+      "max": 21.442420993245943,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    },
+    "12": {
+      "min": 0.0,
+      "max": 3.942385454628789,
+      "nan": 0,
+      "inf": 0,
+      "zero": 85873,
+      "constant_images": 0
+    },
+    "13": {
+      "min": 0.0,
+      "max": 4.88075376635772,
+      "nan": 0,
+      "inf": 0,
+      "zero": 512,
+      "constant_images": 0
+    }
+  },
+  "image_keys": {
+    "('img',)": 800
+  },
+  "image_file_attributes": {
+    "{}": 800
+  },
+  "positive_area_ratio": {
+    "min": 6.103515625e-05,
+    "max": 0.88348388671875,
+    "mean": 0.02818674115992304,
+    "p25": 0.0037841796875,
+    "p33": 0.005221557617187501,
+    "p50": 0.01141357421875,
+    "p66": 0.020208740234375,
+    "p75": 0.0287322998046875
+  },
+  "note": "Descriptive audit only. Shape agreement does not prove geospatial alignment. Test statistics must not fit training normalization."
+}

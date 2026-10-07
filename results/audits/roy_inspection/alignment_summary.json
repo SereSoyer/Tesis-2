@@ -1,0 +1,29 @@
+{
+  "samples": 838,
+  "image_matches": 822,
+  "mask_matches": 827,
+  "mask_mismatches": [],
+  "samples_with_nan": [
+    "point_0098",
+    "point_0125",
+    "point_0141",
+    "point_0213",
+    "point_0264",
+    "point_0267",
+    "point_0357",
+    "point_0438",
+    "point_0460",
+    "point_0461",
+    "point_0465",
+    "point_0668",
+    "point_0682",
+    "point_0687",
+    "point_0689",
+    "point_0913"
+  ],
+  "samples_with_inf": [],
+  "samples_with_nodata_sentinel": [],
+  "png_nodata_samples": [
+    "point_0122"
+  ]
+}

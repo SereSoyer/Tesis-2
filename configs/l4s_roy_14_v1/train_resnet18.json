@@ -1,0 +1,55 @@
+{
+  "dataset": "l4s_roy_14_v1",
+  "training_enabled": false,
+  "model": "resnet18",
+  "pretrained": false,
+  "image_size": 128,
+  "preprocessing": {
+    "channels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "image_key": "img",
+    "layout": "HWC",
+    "normalization": "per_image_minmax",
+    "nan_policy": "error"
+  },
+  "manifests": {
+    "train": "splits/proposed/l4s_roy_14_v1/train.csv",
+    "val": "splits/proposed/l4s_roy_14_v1/val.csv"
+  },
+  "seed": 42,
+  "device": "cuda",
+  "threads": 2,
+  "num_workers": 0,
+  "batch_size": 8,
+  "epochs": 50,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "loss": "BCEWithLogitsLoss",
+  "scheduler": null,
+  "early_stopping": null,
+  "checkpoint_metric": "loss",
+  "threshold": 0.5,
+  "source_datasets": [
+    "landslide4sense",
+    "roy_l4s_pe"
+  ],
+  "dataset_version": "l4s_roy_14_v1",
+  "split_version": "l4s_roy_14_v1_seed42",
+  "disabled_reason": "Reconstruction is authorized; resolve the conflicting physical band identities before joint training.",
+  "band_mapping_status": "pending_conflicting_sources"
+}

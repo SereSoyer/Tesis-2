@@ -1,0 +1,116 @@
+{
+  "dataset": "l4s_roy_14_v1",
+  "image_size": 128,
+  "preprocessing": {
+    "channels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "image_key": "img",
+    "layout": "HWC",
+    "normalization": "per_image_minmax",
+    "nan_policy": "error"
+  },
+  "seed": 42,
+  "threads": 2,
+  "num_workers": 0,
+  "device": "cuda",
+  "classification_threshold": 0.5,
+  "manifests": {
+    "train": "splits/l4s_roy_14_v1/train.csv",
+    "val": "splits/l4s_roy_14_v1/val.csv",
+    "test": "splits/l4s_roy_14_v1/test.csv"
+  },
+  "branches": {
+    "resnet18": {
+      "checkpoint": "results/experiments/l4s_roy_14_v1_resnet18_50ep_seed42/best.pt",
+      "method": "gradcam",
+      "target_layer": "backbone.layer4"
+    },
+    "resnet50": {
+      "checkpoint": "results/experiments/l4s_roy_14_v1_resnet50_50ep_seed42/best.pt",
+      "method": "gradcam",
+      "target_layer": "backbone.layer4"
+    },
+    "deit_small": {
+      "checkpoint": "results/experiments/l4s_roy_14_v1_deit_small_50ep_seed42/best.pt",
+      "method": "gradcam",
+      "target_layer": "backbone.blocks[-1].norm1"
+    },
+    "mit_b1": {
+      "checkpoint": "results/experiments/l4s_roy_14_v1_mit_b1_50ep_seed42/best.pt",
+      "method": "gradcam",
+      "target_layer": "encoder.last_hidden_state"
+    }
+  },
+  "pseudo_labels": {
+    "threshold_grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "refinement": "none"
+  },
+  "segmentation": {
+    "model": "deeplabv3plus_resnet50_gn_decoder",
+    "pretrained": false,
+    "epochs": 50,
+    "batch_size": 4,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "loss": "BCEWithLogitsLoss",
+    "scheduler": null,
+    "early_stopping": null,
+    "augmentation": "none",
+    "threshold": 0.5,
+    "checkpoint_metric": "val_gt_macro_iou_positive"
+  },
+  "source_datasets": [
+    "landslide4sense",
+    "roy_l4s_pe"
+  ],
+  "dataset_version": "l4s_roy_14_v1",
+  "split_version": "l4s_roy_14_v1_seed42",
+  "training_enabled": true,
+  "band_mapping_status": "empirically_supported_mapping",
+  "data_admission": {
+    "path": "metadata/l4s_roy_14_v1_admission.json",
+    "sha256": "e1700962c64990a2c6dbd7b9311434b24d897931d12cbdf3c2e71f5e95b557a0"
+  },
+  "experiment_id": "l4s_roy_14_v1_50ep_seed42",
+  "manifest_sha256": {
+    "train": "73623baf1398e52299a50ca17eb3ee444fdd77aa4c7518be76bd4329af06c8ed",
+    "val": "09625823c0e2eaeecc0493bca28468460f52ebeb26c20ae84db5f4e320b6a908",
+    "test": "7352e348123b645e184ffff958b13549a59ba805ef78ff5da769f6a31332f756"
+  },
+  "run_directory": "results/joint/l4s_roy_14_v1_50ep_seed42"
+}

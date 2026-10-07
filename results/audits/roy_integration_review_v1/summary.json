@@ -1,0 +1,82 @@
+{
+  "purpose": "review_only_not_training_approval",
+  "source_count": 838,
+  "proposed_channels_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11
+  ],
+  "proposed_band_names": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B11",
+    "B12"
+  ],
+  "selected_channel_nonfinite": 0,
+  "selected_channels_tiff_matches": 838,
+  "candidates": 821,
+  "candidate_labels": {
+    "1": 792,
+    "0": 29
+  },
+  "excluded": 17,
+  "excluded_ids": [
+    "point_0024",
+    "point_0039",
+    "point_0075",
+    "point_0079",
+    "point_0122",
+    "point_0191",
+    "point_0465",
+    "point_0523",
+    "point_0524",
+    "point_0588",
+    "point_0598",
+    "point_0605",
+    "point_0631",
+    "point_0786",
+    "point_0847",
+    "point_0905",
+    "point_0966"
+  ],
+  "exclusion_counts": {
+    "missing_or_mismatched_original_png": 11,
+    "annotation_nodata_or_unknown": 1,
+    "identical_input_conflicting_masks": 4,
+    "negative_annotation_conflicts_with_author_label": 1
+  },
+  "selected_input_duplicate_groups": [
+    [
+      "point_0523",
+      "point_0524"
+    ],
+    [
+      "point_0588",
+      "point_0598"
+    ]
+  ],
+  "overlap_edges": 418,
+  "candidate_geographic_groups": 527,
+  "largest_group": 17,
+  "groups_with_negatives": 21,
+  "global_pending": [
+    "alignment_policy",
+    "common_band_and_scaling_policy",
+    "annotation_acceptance",
+    "grouped_split_design",
+    "cross_dataset_geographic_independence_unverified"
+  ]
+}

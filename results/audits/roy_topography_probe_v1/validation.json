@@ -1,0 +1,22 @@
+{
+  "status": "local_checks_passed_earth_engine_execution_pending",
+  "script_sha256": "9f349a0005ef39f5dfd2d47ed9fe9b4b22c0e6e52c7edabb2169ec8769917adf",
+  "reference_sha256": "cd7059d80991bbf220004f6c9bccd024b9d417ceb80f9f367b5c49d3183b9f63",
+  "checked_tiff_values": 200,
+  "checked_coordinates_matching_spectral_probe": 100,
+  "checked_source_hashes": 8,
+  "checks": [
+    "JavaScript syntax via node --check",
+    "All sampled references equal original TIFF pixels",
+    "Coordinates match previous spectral probe",
+    "Train-only sample selection",
+    "Synthetic planar slope: radians and degrees hypotheses in common radian units",
+    "NoData excluded with its 3x3 neighborhood",
+    "JavaScript missing-group reporting"
+  ],
+  "not_verified": [
+    "Earth Engine authenticated execution",
+    "Candidate numerical agreement",
+    "Original topographic product and datum"
+  ]
+}

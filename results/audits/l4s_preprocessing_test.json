@@ -1,0 +1,53 @@
+{
+  "config": {
+    "dataset": "landslide4sense",
+    "image_key": "img",
+    "layout": "HWC",
+    "expected_source_shape": [
+      128,
+      128,
+      14
+    ],
+    "channels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "normalization": "none",
+    "nan_policy": "error",
+    "seed": 42,
+    "batch_size": 8,
+    "num_workers": 0,
+    "manifests": {
+      "train": "metadata/landslide4sense_traindata.csv",
+      "val": "metadata/landslide4sense_validdata.csv",
+      "test": "metadata/landslide4sense_testdata.csv"
+    }
+  },
+  "split": "test",
+  "samples_verified": 800,
+  "manifest_sha256": "13af81b5d6fc7bafd68b0b4d9e04f2d72b4b3f8576fad79da210b1734240d55a",
+  "batch_shape": [
+    8,
+    14,
+    128,
+    128
+  ],
+  "dtype": "torch.float32",
+  "values_preserved_after_float32": true,
+  "mask_files_read": false,
+  "training_performed": false,
+  "manifest_sha256_before_relocation": "fe7f1a2ede6aeebb78800f419d9ef2bc2ba3c6dde5a532edf29936eaa94fe082",
+  "relocation_note": "Only paths changed; raw arrays unchanged. Loader paths checked after relocation."
+}

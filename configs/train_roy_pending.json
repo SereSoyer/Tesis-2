@@ -1,0 +1,7 @@
+{
+  "dataset": "roy_l4s_pe",
+  "training_enabled": false,
+  "disabled_reason": "Pendientes: validar bandas, escalado, NoData y anotaciones; resolver duplicados y crear particiones sin fuga. Esta configuración no define un experimento entrenable.",
+  "data_root": "data/roy",
+  "metadata": "metadata/roy.csv"
+}

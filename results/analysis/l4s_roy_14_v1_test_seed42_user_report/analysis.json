@@ -1,0 +1,100 @@
+{
+  "provenance": "Numbers transcribed from user-pasted server CSVs; server files/checkpoints not directly accessed.",
+  "dataset_version": "l4s_roy_14_v1",
+  "split": "test",
+  "seed": 42,
+  "source_counts": {
+    "landslide4sense": {
+      "1": 536,
+      "0": 264
+    },
+    "roy_l4s_pe": {
+      "1": 118,
+      "0": 4
+    }
+  },
+  "consistency_checks": "Per-source confusion counts, pooled classification metrics, and positive-weighted macro spatial metrics match local admitted test counts.",
+  "source_confusion_counts_inferred": [
+    {
+      "branch": "resnet18",
+      "dataset": "landslide4sense",
+      "tp": 468,
+      "fp": 82,
+      "fn": 68,
+      "tn": 182,
+      "balanced_accuracy": 0.7812641338760742
+    },
+    {
+      "branch": "resnet18",
+      "dataset": "roy_l4s_pe",
+      "tp": 115,
+      "fp": 4,
+      "fn": 3,
+      "tn": 0,
+      "balanced_accuracy": 0.4872881355932203
+    },
+    {
+      "branch": "resnet50",
+      "dataset": "landslide4sense",
+      "tp": 473,
+      "fp": 107,
+      "fn": 63,
+      "tn": 157,
+      "balanced_accuracy": 0.738579828132067
+    },
+    {
+      "branch": "resnet50",
+      "dataset": "roy_l4s_pe",
+      "tp": 114,
+      "fp": 4,
+      "fn": 4,
+      "tn": 0,
+      "balanced_accuracy": 0.4830508474576271
+    },
+    {
+      "branch": "deit_small",
+      "dataset": "landslide4sense",
+      "tp": 473,
+      "fp": 108,
+      "fn": 63,
+      "tn": 156,
+      "balanced_accuracy": 0.7366858887381276
+    },
+    {
+      "branch": "deit_small",
+      "dataset": "roy_l4s_pe",
+      "tp": 114,
+      "fp": 4,
+      "fn": 4,
+      "tn": 0,
+      "balanced_accuracy": 0.4830508474576271
+    },
+    {
+      "branch": "mit_b1",
+      "dataset": "landslide4sense",
+      "tp": 473,
+      "fp": 107,
+      "fn": 63,
+      "tn": 157,
+      "balanced_accuracy": 0.738579828132067
+    },
+    {
+      "branch": "mit_b1",
+      "dataset": "roy_l4s_pe",
+      "tp": 104,
+      "fp": 2,
+      "fn": 14,
+      "tn": 2,
+      "balanced_accuracy": 0.6906779661016949
+    }
+  ],
+  "roy_always_positive_baseline": {
+    "accuracy": 0.9672131147540983,
+    "f1": 0.9833333333333333,
+    "tp": 118,
+    "fp": 4,
+    "fn": 0,
+    "tn": 0
+  },
+  "recommendation": "Freeze this test report. Diagnose localization on validation before changing the next experiment. No automatic protocol or split changes."
+}

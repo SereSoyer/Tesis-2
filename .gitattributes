@@ -1,0 +1,4 @@
+# Conservar los bytes usados por hashes de admisión y planes de ejecución.
+*.csv -text
+*.json -text
+*.py -text

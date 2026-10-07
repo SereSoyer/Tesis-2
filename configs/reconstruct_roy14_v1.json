@@ -1,0 +1,23 @@
+{
+  "purpose": "reconstruct_roy_and_propose_joint_14_channel_experiment",
+  "reconstruction_authorized": true,
+  "training_enabled": false,
+  "disabled_reason": "Reconstruction is authorized; resolve the conflicting physical band identities before joint training.",
+  "dataset_version": "l4s_roy_14_v1",
+  "band_mapping_status": "pending_conflicting_sources",
+  "channel_order": ["B1.tif", "B2.tif", "B3.tif", "B4.tif", "B5.tif", "B6.tif", "B7.tif", "B8.tif", "B9.tif", "B10.tif", "B11.tif", "B12.tif", "B13.tif", "B14.tif"],
+  "image_crop": [11, 139, 11, 139],
+  "mask_crop": [1, 129, 1, 129],
+  "transpose_both": true,
+  "alignment_policy": "iris_mask_area_reconstructed_v1",
+  "nodata_policy": "exclude_sample_no_imputation",
+  "normalization": "per_image_minmax",
+  "seed": 42,
+  "roy_split_ratios": [0.7, 0.15, 0.15],
+  "split_search_trials": 2000,
+  "review_directory": "results/audits/roy_integration_review_v1",
+  "prepared_data_directory": "data/prepared/roy14_v1",
+  "split_directory": "splits/proposed/l4s_roy_14_v1",
+  "config_directory": "configs/l4s_roy_14_v1",
+  "report_directory": "results/audits/roy14_reconstruction_v1"
+}

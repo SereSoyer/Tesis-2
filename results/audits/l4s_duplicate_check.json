@@ -1,0 +1,10 @@
+{
+  "manifests": {
+    "traindata": 3799,
+    "validdata": 245,
+    "testdata": 800
+  },
+  "within_split_duplicate_groups": [],
+  "cross_split_duplicate_groups": [],
+  "scope": "Exact decoded array hashes including shape and dtype. Does not establish geographic independence or rule out overlapping patches. Uses existing audit manifests."
+}

@@ -1,0 +1,1003 @@
+point,label,valid,Valida con la imagen,clouds,fecha,obs,Final,Fechas,Grupo,in_local_dataset,h5_label,png_exists
+1,si,si,si,no,,,si,2019-08-01 | 2019-10-31,13,True,1,True
+2,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+3,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+4,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+5,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+6,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+7,no,no,,no,,agricultura,si,2020-06-01 | 2020-08-30,4,True,1,True
+8,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+9,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+10,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+11,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+12,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+13,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+14,si,si,no,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+15,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+16,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+17,si,si,no,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+18,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+19,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+20,si,si,,si,,,si,2021-05-01 | 2021-07-31,11,True,1,True
+21,si,si,,no,,,si,2019-06-24 | 2019-06-26,16,True,1,True
+22,si,no,,no,,mp,si,2021-05-01 | 2021-07-31,11,True,1,True
+23,si,si,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+24,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,False
+25,si,si,,no,,falta,REVISAR,2020-05-01 | 2020-09-30,,False,,
+26,si,si,,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+27,si,no,,si,,,si,2019-06-24 | 2019-06-26,16,True,1,True
+28,no,no,,si,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+29,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+30,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+31,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+32,si,no,no,no,,mp,si,2019-06-24 | 2019-06-26,16,True,1,True
+33,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+34,si,si,no,no,,,si,2021-05-01 | 2021-07-31,11,True,1,True
+35,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+36,si,no,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+37,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+38,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+39,si,si,,no,,,si,2018-04-01 | 2018-06-30,15,True,1,False
+40,no,no,,si,,,Cambiar fecha,2019-03-06 | 2019-03-07,,False,,
+41,si,no,,,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+42,si,no,no,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+43,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+44,si,si,,no,,,si,2021-05-01 | 2021-07-31,11,True,1,True
+45,no,no,no,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+46,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+47,si,si,,si,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+48,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+49,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+50,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+51,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+52,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+53,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+54,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+55,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+56,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+57,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+58,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+59,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+60,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+61,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+62,no,no,,no,,img cortada,Cambiar fecha,img cortada,,False,,
+63,no,no,no,no,,sin imagen,si,2020-01-01 | 2020-03-31,14,True,1,True
+64,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+65,no,no,si,si,,revisar,si,2018-07-01 | 2018-09-30,14,True,1,True
+66,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+67,si,si,no,no,,,si,2021-05-01 | 2021-07-31,11,True,1,True
+68,si,si,,no,,,si,2020-08-01 | 2020-10-31,9,True,1,True
+69,no,no,,no,,agricultura,si,2020-06-01 | 2020-08-30,4,True,1,True
+70,no,no,,si,,,Cambiar fecha,"2019-09-06 | 2019-09-10
+",,False,,
+71,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+72,si,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+73,si,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+74,si,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+75,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,False
+76,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+77,si,no,,no,,mp,si,2020-08-01 | 2020-10-31,9,True,1,True
+78,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+79,si,si,,no,,,si,2021-07-01 | 2021-09-30,15,True,1,False
+80,si,si,,no,,,si,2021-10-10 | 2021-10-14,16,True,1,True
+81,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+82,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+83,si,si,,no,,,si,2019-06-24 | 2019-06-26,16,True,1,True
+84,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+85,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+86,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+87,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+88,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+89,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+90,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+91,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+92,no,no,no,si,,img cortada,Cambiar fecha,2021-07-02 | 2021-07-06,,False,,
+93,si,si,,no,,,si,2020-08-01 | 2020-10-31,9,True,1,True
+94,no,no,,si,,,si,2022-08-20 | 2022-08-24,16,True,1,True
+95,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+96,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+97,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+98,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+99,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+100,si,si,,no,,,si,2019-08-01 | 2019-10-31,13,True,1,True
+101,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+102,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+103,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+104,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+105,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+106,no,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+107,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,4,True,1,True
+108,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+109,si,si,,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+110,si,si,no,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+111,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+112,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+113,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+114,si,si,no,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+115,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+116,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+117,si,si,no,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+118,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+119,si,si,no,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+120,si,no,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+121,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+122,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+123,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+124,si,si,,no,,img cortada,Cambiar fecha,2020-08-02 | 2020-08-05,,False,,
+125,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+126,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+127,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+128,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+129,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+130,si,si,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+131,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+132,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+133,no,no,,si,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+134,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+135,si,si,,no,,,si,2021-05-01 | 2021-07-31,11,True,1,True
+136,no,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+137,si,si,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+138,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+139,no,no,,si,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+140,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+141,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+142,si,si,,no,,,si,2019-06-24 | 2019-06-26,16,True,1,True
+143,si,si,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+144,no,no,,no,,fecha,si,2021-05-01 | 2021-07-31,11,True,1,True
+145,si,no,,no,,revisar,si,2022-06-12 | 2022-06-16,16,True,1,True
+146,si,si,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+147,no,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+148,si,no,si,no,,,si,2020-01-01 | 2020-03-31,14,True,1,True
+149,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+150,si,si,,no,,,si,2021-05-01 | 2021-07-31,11,True,1,True
+151,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+152,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+153,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+154,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+155,si,si,,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+156,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+157,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+158,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+159,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+160,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,0,True
+161,no,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+162,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,0,True
+163,si,no,,no,,mmp,si,2020-06-01 | 2020-08-30,4,True,1,True
+164,si,si,si,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+165,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,1,True,1,True
+166,no,no,,si,,,si,2019-06-24 | 2019-06-26,16,True,1,True
+167,no,no,si,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,0,True
+168,no,no,,no,,fecha,si,2020-06-01 | 2020-08-30,4,True,1,True
+169,no,no,,si,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+170,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+171,si,no,,no,,fecha,si,2020-06-01 | 2020-08-30,4,True,1,True
+172,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+173,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+174,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+175,si,si,,no,,,si,2020-08-01 | 2020-10-31,9,True,1,True
+176,no,no,no,no,,agricultura,si,2020-06-01 | 2020-08-30,4,True,1,True
+177,si,si,,no,,,si,2020-08-01 | 2020-10-31,9,True,1,True
+178,no,no,,no,,fecha,si,2019-05-01 | 2019-07-31,13,True,1,True
+179,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,1,True,1,True
+180,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+181,si,si,no,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+182,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+183,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+184,si,si,si,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+185,no,no,,no,,agricultura,si,2020-06-01 | 2020-08-30,4,True,0,True
+186,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+187,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+188,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+189,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+190,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+191,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,False
+192,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+193,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+194,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+195,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+196,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+197,no,no,,si,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+198,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+199,no,no,,no,,agricultura,si,2020-06-01 | 2020-08-30,4,True,1,True
+200,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+201,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+202,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+203,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+204,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+205,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+206,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+207,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+208,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+209,si,no,si,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+210,si,si,,no,,,Cambiar fecha,2020-06-01 | 2020-08-30,,False,,
+211,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+212,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+213,si,si,si,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+214,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+215,si,si,,no,,img cortada,CAMBIAR DEM,2020-06-01 | 2020-08-30,,False,,
+216,no,no,,no,,1/2 imagen,Cambiar fecha,,,False,,
+217,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+218,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+219,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+220,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+221,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+222,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+223,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+224,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+225,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+226,no,no,,no,,,si,2020-01-01 | 2020-03-31,14,True,1,True
+227,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+228,si,si,no,no,,,si,2020-08-01 | 2020-10-31,9,True,1,True
+229,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+230,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+231,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+232,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+233,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+234,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+235,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+236,no,no,,no,,sin imagen,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+237,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+238,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+239,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+240,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,4,True,1,True
+241,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+242,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+243,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+244,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+245,si,no,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+246,no,no,no,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+247,si,si,,no,,,si,2021-05-01 | 2021-09-30,4,True,1,True
+248,no,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+249,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+250,si,no,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+251,si,si,,si,,,si,2021-05-01 | 2021-09-30,2,True,1,True
+252,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+253,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+254,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+255,si,si,,no,,,si,2020-06-01 | 2020-08-30,4,True,1,True
+256,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+257,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+258,no,no,,si,,,si,2020-06-01 | 2020-08-30,4,True,0,True
+259,no,no,no,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+260,no,no,,si,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+261,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+262,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+263,si,si,si,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+264,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+265,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+266,si,si,,no,,,si,2021-05-01 | 2021-09-30,3,True,1,True
+267,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+268,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+269,no,no,,si,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+270,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+271,si,no,no,no,,Revisar,si,2019-05-01 | 2019-07-31,13,True,1,True
+272,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+273,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+274,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+275,si,si,si,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+276,si,si,no,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+277,si,si,,no,,mp,si,2019-05-01 | 2019-07-31,13,True,1,True
+278,si,si,no,si,,mp,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+279,si,si,,no,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+280,no,no,no,no,,1/2 imagen,si,2020-05-01 | 2020-09-30,1,True,1,True
+281,no,no,,no,,roca,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+282,si,no,no,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+283,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+284,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+285,si,no,si,si,,Revisar,Cambiar fecha,,,False,,
+286,si,si,,no,,,si,2020-08-01 | 2020-10-31,9,True,1,True
+287,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+288,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+289,si,si,,no,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+290,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+291,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+292,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+293,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+294,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+295,si,si,,no,,,si,2021-05-01 | 2021-09-30,10,True,1,True
+296,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+297,si,si,,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+298,si,no,si,no,,mp,si,2018-07-01 | 2018-09-30,14,True,1,True
+299,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+300,si,si,,no,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+301,no,no,,si,,,Cambiar fecha,,,False,,
+302,no,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+303,si,si,,no,,,si,2021-05-01 | 2021-09-30,2,True,1,True
+304,si,si,,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+305,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+306,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+307,no,no,,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+308,no,no,no,si,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+309,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+310,si,no,no,si,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+311,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+312,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+313,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+314,si,no,no,si,,mp,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+315,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+316,si,no,no,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+317,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+318,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+319,no,no,,si,,,Cambiar fecha,,,False,,
+320,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+321,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+322,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+323,si,no,no,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+324,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+325,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+326,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+327,no,no,,no,,falta imagen,si,2020-05-01 | 2020-09-30,1,True,0,True
+328,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+329,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+330,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+331,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+332,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+333,si,no,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+334,si,si,,no,,,si,2021-05-01 | 2021-09-30,2,True,1,True
+335,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+336,si,si,,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+337,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+338,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+339,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+340,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+341,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+342,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+343,no,no,no,si,,sin imagen,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+344,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+345,si,si,si,no,,,si,2021-05-01 | 2021-09-30,2,True,1,True
+346,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+347,si,si,no,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+348,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+349,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+350,no,no,no,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+351,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+352,si,si,,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+353,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+354,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+355,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+356,si,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+357,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+358,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+359,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+360,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+361,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+362,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+363,no,no,,no,,agricu,si,2020-06-01 | 2020-08-30,5,True,1,True
+364,si,si,no,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+365,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+366,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+367,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+368,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+369,si,no,,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+370,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+371,si,si,no,no,,carreteras,si,2020-05-01 | 2020-09-30,1,True,1,True
+372,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+373,no,no,,si,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+374,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+375,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+376,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+377,si,no,no,no,,Revisar/agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+378,si,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+379,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+380,no,no,,si,,,si,2020-01-01 | 2020-03-31,14,True,1,True
+381,no,no,,si,,,Cambiar fecha,,,False,,
+382,no,no,,si,,,Cambiar fecha,,,False,,
+383,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+384,no,no,,si,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+385,no,no,,si,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+386,si,no,,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+387,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+388,no,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+389,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,1,True,0,True
+390,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+391,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+392,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+393,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+394,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+395,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+396,si,no,no,no,,mp,si,2020-06-01 | 2020-08-30,5,True,1,True
+397,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+398,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+399,si,si,,no,,mp,si,2020-06-01 | 2020-08-30,5,True,1,True
+400,si,si,,no,,,si,2020-05-01 | 2020-08-30,8,True,1,True
+401,si,no,,no,,Revisar,Cambiar fecha,,,False,,
+402,si,no,,no,,mp,Cambiar fecha,,,False,,
+403,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+404,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+405,si,si,,no,,,Cambiar fecha,,,False,,
+406,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+407,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+408,no,no,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+409,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+410,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+411,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+412,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+413,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+414,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+415,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+416,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+417,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+418,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+419,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+420,si,si,,no,,ndvi no,si,2021-05-01 | 2021-09-30,10,True,1,True
+421,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+422,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+423,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+424,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+425,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+426,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+427,si,si,,no,,mp,si,2020-06-01 | 2020-08-30,5,True,1,True
+428,si,si,no,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+429,no,no,,no,,cf,si,2020-05-01 | 2020-09-30,1,True,1,True
+430,si,no,,no,,revisar,si,2020-06-01 | 2020-08-30,5,True,1,True
+431,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+432,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+433,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+434,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+435,no,no,,si,,,si,2020-06-01 | 2020-08-30,5,True,0,True
+436,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+437,no,no,,si,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+438,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+439,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+440,si,si,,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+441,si,no,,no,,revisar,si,2020-05-01 | 2020-09-30,1,True,1,True
+442,no,no,no,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+443,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+444,no,no,,si,,,Cambiar fecha,,,False,,
+445,no,no,,no,,,Cambiar fecha,,,False,,
+446,si,no,,no,,mp,si,2020-05-01 | 2020-09-30,1,True,1,True
+447,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+448,si,si,,no,,,Cambiar fecha,,,False,,
+449,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+450,si,si,si,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+451,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+452,no,no,,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+453,si,si,no,no,,,Cambiar fecha,,,False,,
+454,si,si,no,no,,,Cambiar fecha,,,False,,
+455,no,no,,si,,,Cambiar fecha,,,False,,
+456,si,si,,no,,ndvi no,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+457,no,no,,si,,,Cambiar fecha,,,False,,
+458,si,si,no,no,,mp,si,2018-04-01 | 2018-06-30,14,True,1,True
+459,si,si,,no,,,Cambiar fecha,,,False,,
+460,si,si,,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+461,si,si,,no,,,si,2021-05-01 | 2021-09-30,3,True,1,True
+462,si,si,,no,,,si,2021-05-01 | 2021-09-30,10,True,1,True
+463,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+464,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+465,si,si,,no,,,si,2021-07-01 | 2021-09-30,15,True,1,False
+466,si,no,no,no,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+467,no,no,,si,,,Cambiar fecha,,,False,,
+468,si,si,,no,,,si,2021-05-01 | 2021-07-31,11,True,1,True
+469,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+470,no,no,no,si,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+471,si,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+472,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+473,no,no,,si,,,Cambiar fecha,,,False,,
+474,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+475,si,si,no,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+476,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+477,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+478,si,si,,no,,,si,2021-05-01 | 2021-09-30,3,True,1,True
+479,si,si,,no,,,REVISAR,2020-05-01 | 2020-09-30,,False,,
+480,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+481,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+482,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+483,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+484,no,no,,no,,fecha,si,2020-06-01 | 2020-08-30,5,True,0,True
+485,no,no,,no,,agricultura,si,2020-06-01 | 2020-08-30,5,True,0,True
+486,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+487,no,no,,no,,agricultura,si,2020-05-01 | 2020-09-30,1,True,1,True
+488,si,si,si,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+489,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+490,no,no,,si,,,Cambiar fecha,2021-05-01 | 2021-09-30,,False,,
+491,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+492,no,no,,no,,,si,2021-05-01 | 2021-09-30,10,True,1,True
+493,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+494,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+495,si,si,no,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+496,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+497,si,si,,no,,,si,2020-06-01 | 2020-08-30,5,True,1,True
+498,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+499,si,si,,no,,imagen incompleta,Cambiar fecha,,,False,,
+500,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+501,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+502,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+503,si,si,,no,,,CAMBIAR DEM,2022-06-01 | 2022-07-30,,False,,
+504,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+505,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+506,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+507,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+508,no,no,,no,,sin imagen,Cambiar fecha,,,False,,
+509,si,si,,no,,,si,2021-05-01 | 2021-09-30,2,True,1,True
+510,no,no,,no,,revisar,si,2020-05-01 | 2020-09-30,1,True,1,True
+511,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+512,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+513,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+514,no,no,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+515,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+516,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+517,si,no,,no,,revisar,si,2020-05-01 | 2020-09-30,1,True,1,True
+518,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+519,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+520,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+521,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+522,si,si,,no,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+523,no,no,,no,,agri,si,2020-05-01 | 2020-08-30,8,True,1,True
+524,si,si,,no,,mp,si,2020-06-01 | 2020-08-30,6,True,1,True
+525,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+526,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+527,no,no,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+528,no,no,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+529,no,no,,si,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+530,no,no,,si,,,si,2020-08-01 | 2020-10-31,11,True,1,True
+531,si,si,,no,,,Cambiar fecha,,,False,,
+532,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+533,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+534,si,si,,no,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+535,si,si,,no,,,si,2020-08-01 | 2020-10-31,11,True,1,True
+536,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+537,si,si,,no,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+538,no,no,,si,,,Cambiar fecha,,,False,,
+539,no,no,,si,,,Cambiar fecha,,,False,,
+540,no,no,,si,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+541,no,no,,si,,,Cambiar fecha,,,False,,
+542,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+543,no,no,,no,,sin imagen,si,2019-05-01 | 2019-07-31,13,True,1,True
+544,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+545,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+546,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+547,no,no,,si,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+548,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+549,si,si,,no,,,si,2021-05-01 | 2021-09-30,3,True,1,True
+550,no,no,,si,,fecha,Cambiar fecha,,,False,,
+551,no,no,,si,,,Cambiar fecha,,,False,,
+552,no,no,,si,,,Cambiar fecha,,,False,,
+553,no,no,,si,,,Cambiar fecha,,,False,,
+554,no,no,,si,,,Cambiar fecha,,,False,,
+555,si,si,,no,,,Cambiar fecha,,,False,,
+556,si,si,,no,,,Cambiar fecha,,,False,,
+557,no,no,,si,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+558,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+559,no,no,,si,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+560,si,si,,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+561,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+562,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+563,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+564,si,si,,no,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+565,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+566,no,no,,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+567,no,no,,si,,,Cambiar fecha,,,False,,
+568,no,no,,si,,,Cambiar fecha,,,False,,
+569,no,no,,si,,,Cambiar fecha,,,False,,
+570,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+571,no,no,,si,,,Cambiar fecha,,,False,,
+572,si,si,,no,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+573,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+574,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+575,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+576,no,no,,si,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+577,no,no,,si,,,Cambiar fecha,,,False,,
+578,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+579,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+580,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+581,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+582,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+583,no,no,,si,,,Cambiar fecha,,,False,,
+584,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+585,si,si,,no,,,Cambiar fecha,,,False,,
+586,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+587,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+588,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+589,si,si,,no,,,Cambiar fecha,,,False,,
+590,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+591,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+592,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+593,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+594,no,no,,si,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+595,no,no,,si,,,Cambiar fecha,,,False,,
+596,no,no,,si,,,Cambiar fecha,,,False,,
+597,no,no,,si,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+598,si,si,,no,,,si,2020-06-01 | 2020-08-30,6,True,1,True
+599,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+600,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+601,no,no,,si,,,Cambiar fecha,,,False,,
+602,no,no,,si,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+603,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+604,no,no,,si,,,si,2021-05-01 | 2021-07-31,16,True,1,True
+605,no,no,,si,,,si,2020-06-01 | 2020-08-30,15,True,1,False
+606,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+607,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+608,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,7,True,1,True
+609,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+610,no,no,,no,,sin imagen,si,2019-05-01 | 2019-07-31,13,True,1,True
+611,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+612,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+613,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+614,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+615,si,si,,no,,,Cambiar fecha,,,False,,
+616,no,no,,no,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+617,si,si,,no,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+618,no,no,,si,,falta imagen,Cambiar fecha,,,False,,
+619,no,no,,no,,sin imagen,Cambiar fecha,,,False,,
+620,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+621,no,no,,no,,sin imagen,Cambiar fecha,,,False,,
+622,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+623,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+624,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+625,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+626,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+627,no,no,,si,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+628,si,si,,no,,,Cambiar fecha,,,False,,
+629,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+630,no,no,,si,,,Cambiar fecha,,,False,,
+631,si,si,,no,,,si,2022-06-01 | 2022-07-30,15,True,1,False
+632,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+633,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+634,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+635,si,si,,no,,,Cambiar fecha,,,False,,
+636,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+637,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+638,no,no,,si,,,Cambiar fecha,,,False,,
+639,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+640,no,no,,si,,,Cambiar fecha,,,False,,
+641,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,7,True,0,True
+642,no,no,,no,,fecha,si,2020-06-01 | 2020-08-30,7,True,0,True
+643,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,7,True,0,True
+644,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+645,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+646,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+647,no,no,,no,,agri,si,2020-05-01 | 2020-09-30,2,True,0,True
+648,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+649,si,si,,no,,,si,2020-06-01 | 2020-08-30,7,True,1,True
+650,no,no,,si,,,Cambiar fecha,,,False,,
+651,no,no,,si,,,Cambiar fecha,,,False,,
+652,no,no,,si,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+653,no,no,,si,,,Cambiar fecha,,,False,,
+654,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+655,no,no,,si,,fecha,si,2021-05-01 | 2021-07-31,12,True,1,True
+656,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+657,no,no,,si,,,Cambiar fecha,,,False,,
+658,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+659,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+660,no,no,,si,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+661,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+662,no,no,,no,,revisar,si,2022-08-01 | 2022-09-30,13,True,1,True
+663,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+664,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+665,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+666,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+667,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+668,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+669,si,si,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+670,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+671,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+672,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+673,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+674,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+675,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+676,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+677,no,no,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+678,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+679,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+680,no,no,,si,,,Cambiar fecha,,,False,,
+681,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+682,no,no,,no,,sin imagen,si,2019-05-01 | 2019-07-31,13,True,0,True
+683,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+684,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+685,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+686,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+687,si,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+688,no,no,,no,,agri,CAMBIAR DEM,,,False,,
+689,no,no,,si,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+690,no,no,,si,,,Cambiar fecha,,,False,,
+691,no,no,,no,,falta imagen,Cambiar fecha,,,False,,
+692,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+693,si,si,,no,,,si,2019-02-01 | 2019-04-30,14,True,1,True
+694,no,no,,si,,,Cambiar fecha,,,False,,
+695,no,no,,no,,fecha,Cambiar fecha,,,False,,
+696,no,no,,si,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+697,no,no,,si,,,Cambiar fecha,,,False,,
+698,no,no,,si,,,Cambiar fecha,,,False,,
+699,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+700,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+701,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+702,no,no,,si,,,Cambiar fecha,,,False,,
+703,si,si,,no,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+704,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,2,True,0,True
+705,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+706,no,no,,no,,revisar,Cambiar fecha,2020-08-01 | 2020-10-31,,False,,
+707,no,no,,no,,,Cambiar fecha,,,False,,
+708,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+709,no,no,,si,,,Cambiar fecha,,,False,,
+710,no,no,,si,,,Cambiar fecha,,,False,,
+711,si,si,,no,,,si,2022-08-01 | 2022-09-30,13,True,1,True
+712,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+713,no,no,,si,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+714,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+715,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+716,si,si,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+717,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+718,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+719,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+720,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+721,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+722,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+723,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+724,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+725,no,no,,si,,,Cambiar fecha,,,False,,
+726,no,no,,si,,,Cambiar fecha,,,False,,
+727,no,no,,si,,,Cambiar fecha,,,False,,
+728,no,no,,si,,,Cambiar fecha,,,False,,
+729,no,no,,si,,agri,si,2020-06-01 | 2020-08-30,8,True,0,True
+730,si,si,,no,,img cortada,CAMBIAR DEM,2021-05-01 | 2021-09-30,?,False,,
+731,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+732,si,si,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+733,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+734,no,no,,si,,,Cambiar fecha,,,False,,
+735,no,no,,si,,,Cambiar fecha,,,False,,
+736,no,no,,si,,,Cambiar fecha,,,False,,
+737,no,no,,si,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+738,no,no,,si,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+739,no,no,,si,,,Cambiar fecha,,,False,,
+740,no,no,,no,,fecha,si,2020-06-01 | 2020-08-30,8,True,1,True
+741,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+742,no,no,,no,,revisar,si,2020-08-01 | 2020-10-31,10,True,1,True
+743,no,no,,si,,,Cambiar fecha,,,False,,
+744,no,no,,si,,,Cambiar fecha,,,False,,
+745,no,no,,si,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+746,no,no,,si,,,Cambiar fecha,,,False,,
+747,no,no,,si,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+748,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+749,no,no,,si,,,Cambiar fecha,,,False,,
+750,no,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+751,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+752,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+753,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+754,no,no,,no,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+755,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+756,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+757,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,2,True,0,True
+758,no,no,,si,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+759,no,no,,si,,,Cambiar fecha,,,False,,
+760,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+761,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+762,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+763,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+764,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+765,no,no,,si,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+766,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+767,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+768,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+769,no,no,,no,,agri,si,2020-05-01 | 2020-09-30,2,True,1,True
+770,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,0,True
+771,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+772,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+773,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+774,si,si,,si,,,si,2022-06-01 | 2022-07-30,16,True,1,True
+775,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+776,no,no,,si,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+777,no,no,,si,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+778,no,no,,si,,,Cambiar fecha,,,False,,
+779,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+780,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+781,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+782,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+783,no,no,,si,,fecha,Cambiar fecha,,,False,,
+784,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+785,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+786,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,False
+787,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+788,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+789,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+790,no,no,,no,,Deslizamiento mas reciente,si,2018-07-01 | 2018-09-30,14,True,1,True
+791,no,no,,no,,agri,si,2020-05-01 | 2020-09-30,2,True,0,True
+792,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+793,si,si,,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+794,no,no,,si,,,Cambiar fecha,,,False,,
+795,no,no,,si,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+796,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+797,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+798,si,si,,no,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+799,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+800,no,no,,si,,,Cambiar fecha,,,False,,
+801,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+802,si,si,,no,,,Cambiar fecha,,,False,,
+803,no,no,,si,,,Cambiar fecha,,,False,,
+804,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+805,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+806,no,no,,si,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+807,no,no,,si,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+808,no,no,,no,,sin imagen,Cambiar fecha,,,False,,
+809,no,no,,si,,,Cambiar fecha,,,False,,
+810,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+811,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+812,si,no,,no,,agricultura,si,2020-06-01 | 2020-08-30,8,True,1,True
+813,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+814,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+815,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+816,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+817,si,si,,no,,,Cambiar fecha,,,False,,
+818,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+819,no,no,,si,,,Cambiar fecha,,,False,,
+820,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+821,no,no,,no,,revisar,si,2019-05-01 | 2019-07-31,13,True,1,True
+822,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+823,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+824,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+825,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+826,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+827,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+828,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+829,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+830,no,no,,si,,,Cambiar fecha,,,False,,
+831,no,no,,no,,fecha,si,2019-05-01 | 2019-07-31,13,True,1,True
+832,no,no,,no,,sin imagen,Cambiar fecha,,,False,,
+833,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+834,si,si,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+835,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+836,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+837,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+838,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+839,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+840,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+841,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+842,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+843,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+844,no,no,,si,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+845,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+846,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+847,no,no,,no,,agri,si,2020-05-01 | 2020-09-30,1,True,1,False
+848,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+849,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+850,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+851,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+852,si,si,,no,,mp,si,2021-05-01 | 2021-07-31,12,True,1,True
+853,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+854,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+855,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+856,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+857,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+858,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+859,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+860,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+861,si,no,,no,,mp,Cambiar fecha,,,False,,
+862,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+863,no,no,,si,,,Cambiar fecha,,,False,,
+864,no,no,,si,,,Cambiar fecha,,,False,,
+865,no,no,,si,,,Cambiar fecha,,,False,,
+866,no,no,,si,,,Cambiar fecha,,,False,,
+867,no,no,,si,,,Cambiar fecha,,,False,,
+868,no,no,,si,,,Cambiar fecha,,,False,,
+869,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+870,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+871,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,0,True
+872,no,no,,no,,agricu,si,2020-05-01 | 2020-09-30,2,True,1,True
+873,no,no,,si,,,Cambiar fecha,2020-08-01 | 2020-10-31,,False,,
+874,no,no,,no,,revisar,si,2020-05-01 | 2020-09-30,2,True,1,True
+875,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+876,no,no,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+877,no,no,,no,,fecha,CAMBIAR DEM,,,False,,
+878,no,no,,si,,,Cambiar fecha,,,False,,
+879,no,no,,si,,,Cambiar fecha,,,False,,
+880,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+881,no,no,,si,,,Cambiar fecha,,,False,,
+882,no,no,,no,,agri,si,2020-08-01 | 2020-10-31,10,True,1,True
+883,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+884,no,no,,si,,,Cambiar fecha,,,False,,
+885,no,no,,si,,,Cambiar fecha,2020-08-01 | 2020-10-31,,False,,
+886,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+887,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+888,no,no,,no,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+889,si,no,,no,,mp,si,2018-07-01 | 2018-09-30,14,True,1,True
+890,no,no,,si,,,Cambiar fecha,,,False,,
+891,no,no,,si,,,Cambiar fecha,,,False,,
+892,no,no,,si,,,Cambiar fecha,,,False,,
+893,no,no,,si,,,Cambiar fecha,,,False,,
+894,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+895,no,no,,si,,,Cambiar fecha,,,False,,
+896,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+897,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,2,True,0,True
+898,no,no,,no,,agri,si,2020-05-01 | 2020-09-30,2,True,0,True
+899,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+900,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,3,True,0,True
+901,no,no,,si,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+902,no,no,,si,,,Cambiar fecha,,,False,,
+903,no,no,,si,,,Cambiar fecha,,,False,,
+904,no,no,,no,,agri,si,2020-05-01 | 2020-09-30,2,True,1,True
+905,si,si,,no,,agri,si,2020-08-01 | 2020-10-31,10,True,0,True
+906,no,no,,no,,revisar,si,2020-08-01 | 2020-10-31,10,True,1,True
+907,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+908,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+909,no,no,,si,,agri,si,2020-08-01 | 2020-10-31,10,True,1,True
+910,no,no,,no,,agri,si,2020-05-01 | 2020-09-30,3,True,1,True
+911,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+912,no,no,,no,,agri,CAMBIAR DEM,2020-06-01 | 2020-08-30,,False,,
+913,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+914,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,2,True,1,True
+915,no,no,,si,,,CAMBIAR DEM,2018-07-01 | 2018-09-30,,False,,
+916,no,no,,no,,fecha,si,2019-05-01 | 2019-07-31,13,True,1,True
+917,si,si,,no,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+918,no,no,,no,,fecha,si,2018-07-01 | 2018-09-30,14,True,0,True
+919,no,no,,no,,fecha,si,2020-08-01 | 2020-10-31,10,True,1,True
+920,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+921,no,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+922,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+923,no,no,,no,,revisar,si,2019-05-01 | 2019-07-31,13,True,1,True
+924,no,no,,no,,revisar,si,2019-05-01 | 2019-07-31,13,True,0,True
+925,si,si,,no,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+926,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+927,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+928,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+929,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+930,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+931,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+932,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+933,no,no,,si,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+934,si,si,,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+935,si,si,,no,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+936,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+937,si,si,,no,,Cambiar,si,2022-05-01 | 2022-07-31,13,True,1,True
+938,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,2,True,1,True
+939,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+940,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+941,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+942,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+943,si,no,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+944,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+945,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+946,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,0,True
+947,no,no,,no,,fecha,si,2020-06-01 | 2020-08-30,8,True,0,True
+948,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+949,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+950,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+951,si,si,,no,,,si,2020-05-01 | 2020-09-30,3,True,1,True
+952,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,0,True
+953,si,no,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+954,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+955,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+956,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+957,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+958,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+959,si,si,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+960,no,no,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+961,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+962,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+963,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+964,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+965,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+966,si,si,,no,,,si,2018-04-01 | 2018-06-30,15,True,1,False
+967,no,no,,no,,fecha,si,2020-05-01 | 2020-09-30,2,True,1,True
+968,no,no,,no,,fecha,si,2020-06-01 | 2020-08-30,8,True,1,True
+969,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+970,no,no,,no,,agricul,si,2020-05-01 | 2020-09-30,3,True,1,True
+971,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+972,si,no,,no,,revisar,si,2020-06-01 | 2020-08-30,8,True,1,True
+973,no,no,,no,,fecha,si,2020-06-01 | 2020-08-30,8,True,1,True
+974,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+975,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+976,no,no,,no,,agri,si,2020-06-01 | 2020-08-30,8,True,1,True
+977,si,si,,no,,mp,si,2020-06-01 | 2020-08-30,8,True,1,True
+978,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+979,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+980,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+981,no,no,,si,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+982,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+983,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+984,no,no,,no,,sin imagen,Cambiar fecha,,,False,,
+985,no,no,,si,,,Cambiar fecha,,,False,,
+986,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+987,no,no,,si,,,si,2018-07-01 | 2018-09-30,14,True,1,True
+988,no,no,,si,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+989,no,no,,no,,revisar,si,2021-05-01 | 2021-07-31,12,True,1,True
+990,no,no,,no,,fecha,si,2021-05-01 | 2021-07-31,12,True,1,True
+991,si,si,,no,,,si,2020-08-01 | 2020-10-31,10,True,1,True
+992,si,si,,no,,,si,2020-05-01 | 2020-09-30,1,True,1,True
+993,si,si,,no,,,si,2021-05-01 | 2021-07-31,12,True,1,True
+994,si,si,,no,,,si,2018-04-01 | 2018-06-30,14,True,1,True
+995,no,no,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+996,no,no,,si,,,si,2019-05-01 | 2019-07-31,13,True,1,True
+997,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+998,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+999,si,si,,no,,,si,2020-06-01 | 2020-08-30,8,True,1,True
+1000,si,si,,no,,,si,2020-05-01 | 2020-09-30,2,True,1,True
+1001,no,no,,si,,,Cambiar fecha,,,False,,

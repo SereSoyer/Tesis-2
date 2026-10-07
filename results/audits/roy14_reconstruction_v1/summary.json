@@ -1,0 +1,196 @@
+{
+  "status": "reconstruction_complete_joint_training_pending_band_mapping",
+  "dataset_version": "l4s_roy_14_v1",
+  "policy": {
+    "purpose": "reconstruct_roy_and_propose_joint_14_channel_experiment",
+    "reconstruction_authorized": true,
+    "training_enabled": false,
+    "disabled_reason": "Reconstruction is authorized; resolve the conflicting physical band identities before joint training.",
+    "dataset_version": "l4s_roy_14_v1",
+    "band_mapping_status": "pending_conflicting_sources",
+    "channel_order": [
+      "B1.tif",
+      "B2.tif",
+      "B3.tif",
+      "B4.tif",
+      "B5.tif",
+      "B6.tif",
+      "B7.tif",
+      "B8.tif",
+      "B9.tif",
+      "B10.tif",
+      "B11.tif",
+      "B12.tif",
+      "B13.tif",
+      "B14.tif"
+    ],
+    "image_crop": [
+      11,
+      139,
+      11,
+      139
+    ],
+    "mask_crop": [
+      1,
+      129,
+      1,
+      129
+    ],
+    "transpose_both": true,
+    "alignment_policy": "iris_mask_area_reconstructed_v1",
+    "nodata_policy": "exclude_sample_no_imputation",
+    "normalization": "per_image_minmax",
+    "seed": 42,
+    "roy_split_ratios": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "split_search_trials": 2000,
+    "review_directory": "results/audits/roy_integration_review_v1",
+    "prepared_data_directory": "data/prepared/roy14_v1",
+    "split_directory": "splits/proposed/l4s_roy_14_v1",
+    "config_directory": "configs/l4s_roy_14_v1",
+    "report_directory": "results/audits/roy14_reconstruction_v1"
+  },
+  "source_count": 838,
+  "reconstructed": 806,
+  "labels": {
+    "1": 778,
+    "0": 28
+  },
+  "excluded": 32,
+  "excluded_ids": [
+    "point_0024",
+    "point_0039",
+    "point_0075",
+    "point_0079",
+    "point_0098",
+    "point_0122",
+    "point_0125",
+    "point_0141",
+    "point_0191",
+    "point_0213",
+    "point_0264",
+    "point_0267",
+    "point_0357",
+    "point_0438",
+    "point_0460",
+    "point_0461",
+    "point_0465",
+    "point_0523",
+    "point_0524",
+    "point_0588",
+    "point_0598",
+    "point_0605",
+    "point_0631",
+    "point_0668",
+    "point_0682",
+    "point_0687",
+    "point_0689",
+    "point_0786",
+    "point_0847",
+    "point_0905",
+    "point_0913",
+    "point_0966"
+  ],
+  "exclusion_counts": {
+    "missing_or_mismatched_original_png": 11,
+    "missing_original_png": 11,
+    "invalid_pixels_in_14_channel_crop": 16,
+    "annotation_nodata_or_unknown": 1,
+    "identical_input_conflicting_masks": 4,
+    "negative_annotation_conflicts_with_author_label": 1
+  },
+  "overlap_edges": 418,
+  "geographic_groups": 518,
+  "raw_min_per_channel": [
+    681.0,
+    183.0,
+    258.0,
+    68.0,
+    1.0,
+    0.0,
+    58.0,
+    111.0,
+    36.0,
+    1.0,
+    36.0,
+    1.0,
+    0.0,
+    434.0
+  ],
+  "raw_max_per_channel": [
+    3152.0,
+    8655.0,
+    7697.0,
+    6779.0,
+    5293.0,
+    5600.0,
+    6544.0,
+    8930.0,
+    2972.0,
+    231.0,
+    7280.0,
+    6324.0,
+    1.4837092161178589,
+    4135.0
+  ],
+  "proposed_counts": {
+    "train": {
+      "landslide4sense": {
+        "1": 2231,
+        "0": 1568
+      },
+      "roy_l4s_pe": {
+        "1": 546,
+        "0": 20
+      }
+    },
+    "val": {
+      "landslide4sense": {
+        "0": 99,
+        "1": 146
+      },
+      "roy_l4s_pe": {
+        "1": 114,
+        "0": 4
+      }
+    },
+    "test": {
+      "landslide4sense": {
+        "1": 536,
+        "0": 264
+      },
+      "roy_l4s_pe": {
+        "1": 118,
+        "0": 4
+      }
+    }
+  },
+  "original_l4s_split_sha256": {
+    "train": "9b95000c5e10eb0aa83dcd915c65132ce899a8dc8c26d7d317edddc49ddc232c",
+    "val": "b6f9efd87d2984656638228e08d68760aca6a9cc79ab8fd013ad5a8169d10b9c",
+    "test": "13af81b5d6fc7bafd68b0b4d9e04f2d72b4b3f8576fad79da210b1734240d55a"
+  },
+  "proposed_split_sha256": {
+    "train": "a10ddd88f8721905e6e3e08abfb1364a4a36f4add666eb090bb6c9c3f72be689",
+    "val": "4b983c684f7d581c35812a2daea9db6e4369b8591745042ecf49141617df6054",
+    "test": "ddfcf4f640153a0580ae72e72bbd9270b6cffd22110ed3cec901e430f42c72bd"
+  },
+  "iris_config_sha256": "540d590b2bf5c19e8777d4c293ca5e8e50a5cc7924149f74df081c6e9e5c9aa4",
+  "review_sha256": "18026dfd95c520e2a0179cf64fbc34f10d9c9827233b3754276d4a37eabb6f7e",
+  "outputs": {
+    "prepared_data": "data/prepared/roy14_v1",
+    "split": "splits/proposed/l4s_roy_14_v1",
+    "config": "configs/l4s_roy_14_v1",
+    "report": "results/audits/roy14_reconstruction_v1"
+  },
+  "caveats": [
+    "Band names are positional TIFF filenames; physical identities are not certified.",
+    "IRIS upstream geometry is an adopted reconstruction convention.",
+    "Min-max does not establish radiometric equivalence.",
+    "Observed Roy overlap is grouped; event/acquisition independence is not certified.",
+    "L4S split assignments are unchanged; its test has already been evaluated."
+  ]
+}

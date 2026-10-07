@@ -1,0 +1,17 @@
+{
+  "purpose": "new_joint_experiment_preserving_existing_l4s_results",
+  "training_authorized": false,
+  "decisions": {
+    "common_bands": null,
+    "normalization": null,
+    "alignment": null,
+    "admission": null
+  },
+  "seed": 42,
+  "roy_split_ratios": [0.7, 0.15, 0.15],
+  "review_directory": "results/audits/roy_integration_review_v1",
+  "prepared_data_directory": "data/prepared/roy_common10_v1",
+  "split_directory": "splits/l4s_roy_common10_v1",
+  "config_directory": "configs/l4s_roy_common10_v1",
+  "report_directory": "results/audits/l4s_roy_common10_v1"
+}

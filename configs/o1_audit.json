@@ -1,0 +1,19 @@
+{
+  "purpose": "provisional_inventory_not_training",
+  "reference_date": "2026-09-29",
+  "seed": 42,
+  "integrated_training_authorized": false,
+  "sources": [
+    "metadata/landslide4sense_traindata.csv",
+    "metadata/landslide4sense_validdata.csv",
+    "metadata/landslide4sense_testdata.csv",
+    "metadata/roy.csv"
+  ],
+  "output_manifest": "metadata/integrated_provisional.csv",
+  "output_directory": "results/audits/o1",
+  "provisional_splits_directory": "splits/provisional",
+  "expected_shape": [128, 128, 14],
+  "normalization_fit": null,
+  "statistics_scopes": ["l4s_original_train_descriptive", "roy_unsplit_descriptive_not_for_fit"],
+  "nonfinite_policy": "error_pending_source_review"
+}

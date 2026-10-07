@@ -1,0 +1,121 @@
+{
+  "status": "measured_evidence_not_automatic_admission",
+  "input_csv_sha256": "6e327452f487b4b53fc0ba0fecab9c773ed4cdfc3327d64d963ff2be11c3e2c2",
+  "prepared_reference_sha256": "5c45ed7df276efc55174795382ddeaa8c9af5d1a913fe2fb114d5e5e7bb8866e",
+  "rows": 25,
+  "samples": [
+    "point_0021"
+  ],
+  "source_hashes_and_reference_values_verified": true,
+  "ranking": "Complete coverage first, then control B2/B3/B4/B8 RMSE only.",
+  "scenes": [
+    {
+      "sample_id": "point_0021",
+      "scene_id": "20190625T151709_20190625T152244_T18LVN",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20190625T151709_N0500_R125_T18LVN_20230508T061432",
+        "date": "2019-06-25 15:26:22",
+        "baseline": "05.00",
+        "mgrs_tile": "18LVN",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2019-06-24",
+        "window_end_exclusive": "2019-06-27"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 72.93291438027141,
+        "mae": 40.51,
+        "bias_candidate_minus_reference": 20.81,
+        "max_absolute_error": 255.0,
+        "exact_pixels": 4,
+        "pearson_r": 0.9967600495727766
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 12.15894732285653,
+          "mae": 10.16,
+          "bias_candidate_minus_reference": 7.92,
+          "max_absolute_error": 25.0,
+          "exact_pixels": 2,
+          "pearson_r": 0.9931792832658349
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 19.635681806344287,
+          "mae": 15.96,
+          "bias_candidate_minus_reference": 8.36,
+          "max_absolute_error": 38.0,
+          "exact_pixels": 2,
+          "pearson_r": 0.9831758410971949
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 16.924538398432023,
+          "mae": 14.12,
+          "bias_candidate_minus_reference": 6.12,
+          "max_absolute_error": 33.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.991458265830813
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 143.02796929272262,
+          "mae": 121.8,
+          "bias_candidate_minus_reference": 60.84,
+          "max_absolute_error": 255.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9802111412467914
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 20.650423724466286,
+          "mae": 17.8,
+          "bias_candidate_minus_reference": 16.44,
+          "max_absolute_error": 39.0,
+          "exact_pixels": 1,
+          "pearson_r": 0.999200894869301
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 1334.0432826561514,
+          "mae": 1264.92,
+          "bias_candidate_minus_reference": 1264.92,
+          "max_absolute_error": 2122.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.8479490883486108
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 0.282842712474619,
+          "mae": 0.08,
+          "bias_candidate_minus_reference": 0.08,
+          "max_absolute_error": 1.0,
+          "exact_pixels": 23,
+          "pearson_r": 0.998725399852899
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1316.8256680365857,
+          "mae": 1283.28,
+          "bias_candidate_minus_reference": 1283.28,
+          "max_absolute_error": 1665.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.7140665174040728
+        }
+      }
+    }
+  ],
+  "band_mapping_changed": false,
+  "training_enabled": false,
+  "limitations": [
+    "Sparse pixel probe, not a full-patch comparison.",
+    "Returned CSV alone does not prove that all candidate scenes were searched.",
+    "Residual error does not identify its processing/geometric cause.",
+    "Do not generalize a single point to every Roy sample or to topographic layers."
+  ]
+}

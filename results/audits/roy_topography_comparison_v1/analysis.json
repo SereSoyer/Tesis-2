@@ -1,0 +1,1590 @@
+{
+  "status": "measured_evidence_not_automatic_admission",
+  "input_csv_sha256": "3b4c1660940e9f1df2cac833ebe9345aed5a92778148d4afd221e2f89ee6b458",
+  "prepared_reference_sha256": "cd7059d80991bbf220004f6c9bccd024b9d417ceb80f9f367b5c49d3183b9f63",
+  "rows": 300,
+  "unique_positions": 100,
+  "complete": true,
+  "source_hashes_and_reference_values_verified": true,
+  "slope_hypothesis_comparison_units": "radians_for_both",
+  "groups": [
+    {
+      "sample_id": "point_0021",
+      "candidate": "SRTM_V3",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "USGS/SRTMGL1_003",
+        "source_ids": "USGS/SRTMGL1_003",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -180.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 60.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 38.50818094898797,
+          "mae": 37.28,
+          "bias_candidate_minus_reference": -37.28,
+          "max_absolute_error": 57.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9993212810641795
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.0726548556197822,
+          "mae": 0.052954060006938516,
+          "bias_candidate_minus_reference": 0.0033211033386008324,
+          "max_absolute_error": 0.19911927893229386,
+          "exact_pixels": 0,
+          "pearson_r": 0.9183219188317268
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.6743682157275962,
+          "mae": 0.6534369086450684,
+          "bias_candidate_minus_reference": 0.6534369086450684,
+          "max_absolute_error": 1.074412856268119,
+          "exact_pixels": 0,
+          "pearson_r": 0.9183219188317268
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 11.14461722710892,
+          "mae": 8.500503879340286,
+          "bias_candidate_minus_reference": -5.585661425783364,
+          "max_absolute_error": 25.30942525421915,
+          "exact_pixels": 0,
+          "pearson_r": 0.9993218302083495
+        },
+        "egm96_N_m": {
+          "min": 31.67693855036388,
+          "max": 31.71154607646291,
+          "mean": 31.694338574216637
+        }
+      }
+    },
+    {
+      "sample_id": "point_0021",
+      "candidate": "NASADEM_HGT",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "NASA/NASADEM_HGT/001",
+        "source_ids": "NASA/NASADEM_HGT/001",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -179.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 61.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 38.89267283178157,
+          "mae": 37.6,
+          "bias_candidate_minus_reference": -37.6,
+          "max_absolute_error": 56.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9993462162275515
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.12173293721358285,
+          "mae": 0.08078371108445316,
+          "bias_candidate_minus_reference": 0.044946227286964985,
+          "max_absolute_error": 0.40555761370281496,
+          "exact_pixels": 0,
+          "pearson_r": 0.8216123515868005
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.7209157198653529,
+          "mae": 0.6950620325934325,
+          "bias_candidate_minus_reference": 0.6950620325934325,
+          "max_absolute_error": 1.2150960719062633,
+          "exact_pixels": 0,
+          "pearson_r": 0.8216123515868003
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 11.561889089670014,
+          "mae": 9.116418215472331,
+          "bias_candidate_minus_reference": -5.905661425783364,
+          "max_absolute_error": 24.30942525421915,
+          "exact_pixels": 0,
+          "pearson_r": 0.9993467367445878
+        },
+        "egm96_N_m": {
+          "min": 31.67693855036388,
+          "max": 31.71154607646291,
+          "mean": 31.694338574216637
+        }
+      }
+    },
+    {
+      "sample_id": "point_0021",
+      "candidate": "ALOS_AW3D30_V4_1",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "JAXA/ALOS/AW3D30/V4_1",
+        "source_ids": "S012W076",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -76.0], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", -11.0]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 36.43185419382329,
+          "mae": 33.84,
+          "bias_candidate_minus_reference": -33.84,
+          "max_absolute_error": 68.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9987173736897486
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.09579288283078834,
+          "mae": 0.07533815689456874,
+          "bias_candidate_minus_reference": -0.03826164239312716,
+          "max_absolute_error": 0.2159702909334712,
+          "exact_pixels": 0,
+          "pearson_r": 0.8777980347455966
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.6319126013854004,
+          "mae": 0.6118541629133404,
+          "bias_candidate_minus_reference": 0.6118541629133404,
+          "max_absolute_error": 0.853649185599619,
+          "exact_pixels": 0,
+          "pearson_r": 0.8777980347455965
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 13.664871328354984,
+          "mae": 10.705049029087094,
+          "bias_candidate_minus_reference": -2.1456614257833646,
+          "max_absolute_error": 36.30566136689049,
+          "exact_pixels": 0,
+          "pearson_r": 0.9987176647587805
+        },
+        "egm96_N_m": {
+          "min": 31.67693855036388,
+          "max": 31.71154607646291,
+          "mean": 31.694338574216637
+        }
+      }
+    },
+    {
+      "sample_id": "point_0002",
+      "candidate": "SRTM_V3",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "USGS/SRTMGL1_003",
+        "source_ids": "USGS/SRTMGL1_003",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -180.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 60.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 33.79585773434372,
+          "mae": 33.12,
+          "bias_candidate_minus_reference": -33.12,
+          "max_absolute_error": 47.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9991635899531371
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.042082817470065134,
+          "mae": 0.02899654451085593,
+          "bias_candidate_minus_reference": -0.013877847209729155,
+          "max_absolute_error": 0.121500584336376,
+          "exact_pixels": 0,
+          "pearson_r": 0.9506519054660806
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.5440705560597309,
+          "mae": 0.5319380739410515,
+          "bias_candidate_minus_reference": 0.5319380739410515,
+          "max_absolute_error": 0.8203437523040342,
+          "exact_pixels": 0,
+          "pearson_r": 0.9506519054660806
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 6.912505641973892,
+          "mae": 5.775116006917469,
+          "bias_candidate_minus_reference": -1.5790295446615528,
+          "max_absolute_error": 15.455206662253204,
+          "exact_pixels": 0,
+          "pearson_r": 0.9991632035083269
+        },
+        "egm96_N_m": {
+          "min": 31.520722899890167,
+          "max": 31.561300771994603,
+          "mean": 31.54097045533847
+        }
+      }
+    },
+    {
+      "sample_id": "point_0002",
+      "candidate": "NASADEM_HGT",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "NASA/NASADEM_HGT/001",
+        "source_ids": "NASA/NASADEM_HGT/001",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -179.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 61.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 32.78597261024904,
+          "mae": 32.04,
+          "bias_candidate_minus_reference": -32.04,
+          "max_absolute_error": 46.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9991479505025321
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.059539528309828504,
+          "mae": 0.04697112213451184,
+          "bias_candidate_minus_reference": -0.0391259911979639,
+          "max_absolute_error": 0.15070821710907853,
+          "exact_pixels": 0,
+          "pearson_r": 0.944778859893074
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.5242912395459999,
+          "mae": 0.5066899299528168,
+          "bias_candidate_minus_reference": 0.5066899299528168,
+          "max_absolute_error": 0.8004802989975692,
+          "exact_pixels": 0,
+          "pearson_r": 0.9447788598930738
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 6.976226551096745,
+          "mae": 5.858459496661908,
+          "bias_candidate_minus_reference": -0.4990295446615528,
+          "max_absolute_error": 14.476306210744951,
+          "exact_pixels": 0,
+          "pearson_r": 0.9991478299602753
+        },
+        "egm96_N_m": {
+          "min": 31.520722899890167,
+          "max": 31.561300771994603,
+          "mean": 31.54097045533847
+        }
+      }
+    },
+    {
+      "sample_id": "point_0002",
+      "candidate": "ALOS_AW3D30_V4_1",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "JAXA/ALOS/AW3D30/V4_1",
+        "source_ids": "S012W076",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -76.0], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", -11.0]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 31.617716552591205,
+          "mae": 29.68,
+          "bias_candidate_minus_reference": -29.68,
+          "max_absolute_error": 55.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9977843458368364
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.16515877433883835,
+          "mae": 0.1331493506080069,
+          "bias_candidate_minus_reference": 0.050548431085633345,
+          "max_absolute_error": 0.4533735359291515,
+          "exact_pixels": 0,
+          "pearson_r": 0.24621830775554174
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.6100249717368522,
+          "mae": 0.5963643522364139,
+          "bias_candidate_minus_reference": 0.5963643522364139,
+          "max_absolute_error": 0.9447532425241937,
+          "exact_pixels": 0,
+          "pearson_r": 0.24621830775554174
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 11.054148018372224,
+          "mae": 8.862609603756919,
+          "bias_candidate_minus_reference": 1.8609704553384472,
+          "max_absolute_error": 26.533977164768658,
+          "exact_pixels": 0,
+          "pearson_r": 0.9977838186896204
+        },
+        "egm96_N_m": {
+          "min": 31.520722899890167,
+          "max": 31.561300771994603,
+          "mean": 31.54097045533847
+        }
+      }
+    },
+    {
+      "sample_id": "point_0023",
+      "candidate": "SRTM_V3",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "USGS/SRTMGL1_003",
+        "source_ids": "USGS/SRTMGL1_003",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -180.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 60.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 36.2160185553299,
+          "mae": 35.6,
+          "bias_candidate_minus_reference": -35.6,
+          "max_absolute_error": 56.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9993728517032942
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.1059460209439797,
+          "mae": 0.07453954310886479,
+          "bias_candidate_minus_reference": 0.011030519877598026,
+          "max_absolute_error": 0.3007507901951845,
+          "exact_pixels": 0,
+          "pearson_r": 0.8489401474819533
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.5390663513178049,
+          "mae": 0.5109811339522752,
+          "bias_candidate_minus_reference": 0.5109811339522752,
+          "max_absolute_error": 0.9051891289149759,
+          "exact_pixels": 0,
+          "pearson_r": 0.848940147481953
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 7.7633910537624775,
+          "mae": 5.540364411011724,
+          "bias_candidate_minus_reference": -4.005181582621553,
+          "max_absolute_error": 24.392538368525265,
+          "exact_pixels": 0,
+          "pearson_r": 0.9993732604510723
+        },
+        "egm96_N_m": {
+          "min": 31.57647644914174,
+          "max": 31.61296790796873,
+          "mean": 31.594818417378473
+        }
+      }
+    },
+    {
+      "sample_id": "point_0023",
+      "candidate": "NASADEM_HGT",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "NASA/NASADEM_HGT/001",
+        "source_ids": "NASA/NASADEM_HGT/001",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -179.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 61.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 37.87769792371231,
+          "mae": 37.04,
+          "bias_candidate_minus_reference": -37.04,
+          "max_absolute_error": 53.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9990183775888739
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.13522950435430311,
+          "mae": 0.08431605865477232,
+          "bias_candidate_minus_reference": -0.003018744771246071,
+          "max_absolute_error": 0.4274280087471366,
+          "exact_pixels": 0,
+          "pearson_r": 0.7344916235611889
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.518664190655928,
+          "mae": 0.49693186930343103,
+          "bias_candidate_minus_reference": 0.49693186930343103,
+          "max_absolute_error": 0.7390817390426864,
+          "exact_pixels": 0,
+          "pearson_r": 0.7344916235611887
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 9.611397355155656,
+          "mae": 7.523832700060557,
+          "bias_candidate_minus_reference": -5.4451815826215535,
+          "max_absolute_error": 21.392538368525265,
+          "exact_pixels": 0,
+          "pearson_r": 0.9990188043935168
+        },
+        "egm96_N_m": {
+          "min": 31.57647644914174,
+          "max": 31.61296790796873,
+          "mean": 31.594818417378473
+        }
+      }
+    },
+    {
+      "sample_id": "point_0023",
+      "candidate": "ALOS_AW3D30_V4_1",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "JAXA/ALOS/AW3D30/V4_1",
+        "source_ids": "S012W076",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -76.0], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", -11.0]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 40.00149997187605,
+          "mae": 37.56,
+          "bias_candidate_minus_reference": -37.56,
+          "max_absolute_error": 74.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9970627583475931
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.12446465515058301,
+          "mae": 0.09295044226658909,
+          "bias_candidate_minus_reference": 0.0598637616244831,
+          "max_absolute_error": 0.2756811565632372,
+          "exact_pixels": 0,
+          "pearson_r": 0.8377081880245383
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.5807733919046005,
+          "mae": 0.5598143756991601,
+          "bias_candidate_minus_reference": 0.5598143756991601,
+          "max_absolute_error": 0.8343741140435205,
+          "exact_pixels": 0,
+          "pearson_r": 0.8377081880245383
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 14.995304030581472,
+          "mae": 11.192117285057101,
+          "bias_candidate_minus_reference": -5.965181582621553,
+          "max_absolute_error": 42.38703209203118,
+          "exact_pixels": 0,
+          "pearson_r": 0.9970640055651223
+        },
+        "egm96_N_m": {
+          "min": 31.57647644914174,
+          "max": 31.61296790796873,
+          "mean": 31.594818417378473
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "candidate": "SRTM_V3",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "USGS/SRTMGL1_003",
+        "source_ids": "USGS/SRTMGL1_003",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -180.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 60.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 32.257092243412146,
+          "mae": 31.8,
+          "bias_candidate_minus_reference": -31.8,
+          "max_absolute_error": 43.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9992290018794094
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.069256814213082,
+          "mae": 0.0486587126826069,
+          "bias_candidate_minus_reference": -0.019343978984364588,
+          "max_absolute_error": 0.24087125464404147,
+          "exact_pixels": 0,
+          "pearson_r": 0.8637824240178481
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.4344461633166995,
+          "mae": 0.42328657443870926,
+          "bias_candidate_minus_reference": 0.42328657443870926,
+          "max_absolute_error": 0.636999412219073,
+          "exact_pixels": 0,
+          "pearson_r": 0.8637824240178483
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 5.516539495258681,
+          "mae": 4.947751580537524,
+          "bias_candidate_minus_reference": 1.1099466347102043,
+          "max_absolute_error": 10.04253332644862,
+          "exact_pixels": 0,
+          "pearson_r": 0.9992296225029649
+        },
+        "egm96_N_m": {
+          "min": 32.86285941645787,
+          "max": 32.95746667355134,
+          "mean": 32.90994663471024
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "candidate": "NASADEM_HGT",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "NASA/NASADEM_HGT/001",
+        "source_ids": "NASA/NASADEM_HGT/001",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -179.0001388888889], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", 61.00013888888889]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 30.005999400119972,
+          "mae": 29.56,
+          "bias_candidate_minus_reference": -29.56,
+          "max_absolute_error": 42.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9992761312327889
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.06905368242058965,
+          "mae": 0.05425996194581531,
+          "bias_candidate_minus_reference": -0.01095490303994648,
+          "max_absolute_error": 0.1682483164561802,
+          "exact_pixels": 0,
+          "pearson_r": 0.8507647130023346
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.4453185325846679,
+          "mae": 0.43167565038312733,
+          "bias_candidate_minus_reference": 0.43167565038312733,
+          "max_absolute_error": 0.7096223504069342,
+          "exact_pixels": 0,
+          "pearson_r": 0.8507647130023346
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 6.140147354312538,
+          "mae": 5.2423909414417444,
+          "bias_candidate_minus_reference": 3.3499466347102045,
+          "max_absolute_error": 10.932143272300436,
+          "exact_pixels": 0,
+          "pearson_r": 0.9992773400328049
+        },
+        "egm96_N_m": {
+          "min": 32.86285941645787,
+          "max": 32.95746667355134,
+          "mean": 32.90994663471024
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "candidate": "ALOS_AW3D30_V4_1",
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "metadata": {
+        "asset_id": "JAXA/ALOS/AW3D30/V4_1",
+        "source_ids": "S011W076",
+        "native_crs": "EPSG:4326",
+        "native_transform": "PARAM_MT[\"Affine\", \n  PARAMETER[\"num_row\", 3], \n  PARAMETER[\"num_col\", 3], \n  PARAMETER[\"elt_0_0\", 0.0002777777777777778], \n  PARAMETER[\"elt_0_2\", -76.0], \n  PARAMETER[\"elt_1_1\", -0.0002777777777777778], \n  PARAMETER[\"elt_1_2\", -10.0]]",
+        "native_scale_m": "30.922080775909325",
+        "slope_grid": "native_4_neighbors",
+        "sampling": "nearest_to_original_UTM_TIFF_grid"
+      },
+      "comparisons": {
+        "b14_vs_elevation_m": {
+          "n": 25,
+          "rmse": 28.308302669005077,
+          "mae": 27.36,
+          "bias_candidate_minus_reference": -27.36,
+          "max_absolute_error": 43.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9985176360407366
+        },
+        "b13_as_radians_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.09356870840797021,
+          "mae": 0.07057937725170432,
+          "bias_candidate_minus_reference": 0.014141264331731539,
+          "max_absolute_error": 0.21339126989876367,
+          "exact_pixels": 0,
+          "pearson_r": 0.7412980547996977
+        },
+        "b13_as_degrees_vs_slope_rad": {
+          "n": 25,
+          "rmse": 0.47375652923178796,
+          "mae": 0.45677181775480524,
+          "bias_candidate_minus_reference": 0.45677181775480524,
+          "max_absolute_error": 0.9182719004879091,
+          "exact_pixels": 0,
+          "pearson_r": 0.7412980547996978
+        },
+        "b14_vs_elevation_plus_egm96_m": {
+          "n": 25,
+          "rmse": 9.145149497430628,
+          "mae": 7.6658031168751855,
+          "bias_candidate_minus_reference": 5.549946634710205,
+          "max_absolute_error": 19.93611098362703,
+          "exact_pixels": 0,
+          "pearson_r": 0.9985177964052769
+        },
+        "egm96_N_m": {
+          "min": 32.86285941645787,
+          "max": 32.95746667355134,
+          "mean": 32.90994663471024
+        }
+      }
+    }
+  ],
+  "pooled": {
+    "SRTM_V3": {
+      "b14_vs_elevation_m": {
+        "n": 100,
+        "rmse": 35.27449503536514,
+        "mae": 34.45,
+        "bias_candidate_minus_reference": -34.45,
+        "max_absolute_error": 57.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9998890279099519
+      },
+      "b13_as_radians_vs_slope_rad": {
+        "n": 100,
+        "rmse": 0.07594530472675345,
+        "mae": 0.051287215077316525,
+        "bias_candidate_minus_reference": -0.004717550744473722,
+        "max_absolute_error": 0.3007507901951845,
+        "exact_pixels": 0,
+        "pearson_r": 0.9075846703819926
+      },
+      "b13_as_degrees_vs_slope_rad": {
+        "n": 100,
+        "rmse": 0.5545541588290673,
+        "mae": 0.5299106727442762,
+        "bias_candidate_minus_reference": 0.5299106727442762,
+        "max_absolute_error": 1.074412856268119,
+        "exact_pixels": 0,
+        "pearson_r": 0.9075846703819925
+      },
+      "b14_vs_elevation_plus_egm96_m": {
+        "n": 100,
+        "rmse": 8.103821259836035,
+        "mae": 6.190933969451751,
+        "bias_candidate_minus_reference": -2.5149814795890664,
+        "max_absolute_error": 25.30942525421915,
+        "exact_pixels": 0,
+        "pearson_r": 0.9998868074656727
+      },
+      "egm96_N_m": {
+        "min": 31.520722899890167,
+        "max": 32.95746667355134,
+        "mean": 31.93501852041095
+      }
+    },
+    "NASADEM_HGT": {
+      "b14_vs_elevation_m": {
+        "n": 100,
+        "rmse": 35.08076395975436,
+        "mae": 34.06,
+        "bias_candidate_minus_reference": -34.06,
+        "max_absolute_error": 56.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9998623593180812
+      },
+      "b13_as_radians_vs_slope_rad": {
+        "n": 100,
+        "rmse": 0.10175865238120677,
+        "mae": 0.06658271345488816,
+        "bias_candidate_minus_reference": -0.002038352930547867,
+        "max_absolute_error": 0.4274280087471366,
+        "exact_pixels": 0,
+        "pearson_r": 0.8415712979712868
+      },
+      "b13_as_degrees_vs_slope_rad": {
+        "n": 100,
+        "rmse": 0.5616764898822524,
+        "mae": 0.532589870558202,
+        "bias_candidate_minus_reference": 0.532589870558202,
+        "max_absolute_error": 1.2150960719062633,
+        "exact_pixels": 0,
+        "pearson_r": 0.8415712979712866
+      },
+      "b14_vs_elevation_plus_egm96_m": {
+        "n": 100,
+        "rmse": 8.837779484483391,
+        "mae": 6.935275338409135,
+        "bias_candidate_minus_reference": -2.1249814795890667,
+        "max_absolute_error": 24.30942525421915,
+        "exact_pixels": 0,
+        "pearson_r": 0.9998577627550308
+      },
+      "egm96_N_m": {
+        "min": 31.520722899890167,
+        "max": 32.95746667355134,
+        "mean": 31.93501852041095
+      }
+    },
+    "ALOS_AW3D30_V4_1": {
+      "b14_vs_elevation_m": {
+        "n": 100,
+        "rmse": 34.38182659487421,
+        "mae": 32.11,
+        "bias_candidate_minus_reference": -32.11,
+        "max_absolute_error": 74.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9996969873285072
+      },
+      "b13_as_radians_vs_slope_rad": {
+        "n": 100,
+        "rmse": 0.12318710435454452,
+        "mae": 0.09300433175521729,
+        "bias_candidate_minus_reference": 0.02157295366218021,
+        "max_absolute_error": 0.4533735359291515,
+        "exact_pixels": 0,
+        "pearson_r": 0.7500908648633898
+      },
+      "b13_as_degrees_vs_slope_rad": {
+        "n": 100,
+        "rmse": 0.5773185826877427,
+        "mae": 0.5562011771509301,
+        "bias_candidate_minus_reference": 0.5562011771509301,
+        "max_absolute_error": 0.9447532425241937,
+        "exact_pixels": 0,
+        "pearson_r": 0.7500908648633889
+      },
+      "b14_vs_elevation_plus_egm96_m": {
+        "n": 100,
+        "rmse": 12.423926504254897,
+        "mae": 9.606394758694075,
+        "bias_candidate_minus_reference": -0.17498147958906657,
+        "max_absolute_error": 42.38703209203118,
+        "exact_pixels": 0,
+        "pearson_r": 0.9996893372241671
+      },
+      "egm96_N_m": {
+        "min": 31.520722899890167,
+        "max": 32.95746667355134,
+        "mean": 31.93501852041095
+      }
+    }
+  },
+  "independent_geoid_diagnostic": {
+    "grid": "/usr/share/proj/egm96_15.gtx",
+    "grid_sha256": "c02a6eb70a7a78efebe5adf3ade626eb75390e170bb8b3f36136a2c28f5326a0",
+    "gdal_version": "3080400",
+    "grid_transform": [
+      -180.125,
+      0.25,
+      0.0,
+      90.125,
+      0.0,
+      -0.25
+    ],
+    "interpolation": "Bilinear at pixel centers; no fitted or selected offsets.",
+    "hypothesis": "h_ellipsoid = H_orthometric + N_EGM96; not a proven Roy datum.",
+    "source": "Local PROJ egm96_15.gtx, 15 arc-minute geoid undulation grid.",
+    "samples": [
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r17_c17",
+        "longitude": -75.36750800756674,
+        "latitude": -11.38671836091956,
+        "egm96_N_m": 31.687559663327377
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r17_c43",
+        "longitude": -75.36512489930847,
+        "latitude": -11.386721328942826,
+        "egm96_N_m": 31.685179063224858
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r17_c75",
+        "longitude": -75.3621918420847,
+        "latitude": -11.3867249553892,
+        "egm96_N_m": 31.68224909896442
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r17_c107",
+        "longitude": -75.35925878386887,
+        "latitude": -11.386728552588265,
+        "egm96_N_m": 31.67931913950207
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r17_c133",
+        "longitude": -75.35687567334355,
+        "latitude": -11.386731453776857,
+        "egm96_N_m": 31.67693855036388
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r43_c17",
+        "longitude": -75.3675110258162,
+        "latitude": -11.389069692974298,
+        "egm96_N_m": 31.69293601355135
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r43_c43",
+        "longitude": -75.36512789798712,
+        "latitude": -11.389072661626267,
+        "egm96_N_m": 31.690574745780687
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r43_c75",
+        "longitude": -75.3621948166762,
+        "latitude": -11.389076288840814,
+        "egm96_N_m": 31.68766857516888
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r43_c107",
+        "longitude": -75.35926173437313,
+        "latitude": -11.38907988680186,
+        "egm96_N_m": 31.68476240936527
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r43_c133",
+        "longitude": -75.35687860427696,
+        "latitude": -11.389082788604998,
+        "egm96_N_m": 31.682401152582152
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r75_c17",
+        "longitude": -75.36751474149706,
+        "latitude": -11.391963639602368,
+        "egm96_N_m": 31.699552992411462
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r75_c43",
+        "longitude": -75.36513158957493,
+        "latitude": -11.391966609028138,
+        "egm96_N_m": 31.697215518706262
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r75_c75",
+        "longitude": -75.36219847861098,
+        "latitude": -11.391970237188154,
+        "egm96_N_m": 31.694338633109712
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r75_c107",
+        "longitude": -75.35926536665485,
+        "latitude": -11.391973836087034,
+        "egm96_N_m": 31.691461752333815
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r75_c133",
+        "longitude": -75.3568822124655,
+        "latitude": -11.391976738646553,
+        "egm96_N_m": 31.689124289644653
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r107_c17",
+        "longitude": -75.36751845818463,
+        "latitude": -11.394857585660692,
+        "egm96_N_m": 31.706169896683758
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r107_c43",
+        "longitude": -75.36513528216294,
+        "latitude": -11.39486055586028,
+        "egm96_N_m": 31.703856217514527
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r107_c75",
+        "longitude": -75.3622021415379,
+        "latitude": -11.394864184965774,
+        "egm96_N_m": 31.70100861751227
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r107_c107",
+        "longitude": -75.35926899992067,
+        "latitude": -11.394867784802512,
+        "egm96_N_m": 31.698161022343218
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r107_c133",
+        "longitude": -75.35688582163162,
+        "latitude": -11.394870688118424,
+        "egm96_N_m": 31.695847354218582
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r133_c17",
+        "longitude": -75.3675214787346,
+        "latitude": -11.39720891641346,
+        "egm96_N_m": 31.71154607646291
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r133_c43",
+        "longitude": -75.36513828312718,
+        "latitude": -11.397211887241784,
+        "egm96_N_m": 31.7092517307007
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r133_c75",
+        "longitude": -75.36220511839663,
+        "latitude": -11.397215517115496,
+        "egm96_N_m": 31.706427925670425
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r133_c107",
+        "longitude": -75.35927195267382,
+        "latitude": -11.397219117714254,
+        "egm96_N_m": 31.703604125483462
+      },
+      {
+        "sample_id": "point_0021",
+        "pixel_id": "r133_c133",
+        "longitude": -75.35688875479897,
+        "latitude": -11.397222021644746,
+        "egm96_N_m": 31.701309790789068
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r17_c17",
+        "longitude": -75.19107407217777,
+        "latitude": -11.400722790718449,
+        "egm96_N_m": 31.53397716476867
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r17_c43",
+        "longitude": -75.18869081145128,
+        "latitude": -11.400724331085136,
+        "egm96_N_m": 31.531006487417542
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r17_c75",
+        "longitude": -75.18575756701219,
+        "latitude": -11.400726200380738,
+        "egm96_N_m": 31.527350184725627
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r17_c107",
+        "longitude": -75.18282432206419,
+        "latitude": -11.400728040390451,
+        "egm96_N_m": 31.523693789255027
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r17_c133",
+        "longitude": -75.18044106017477,
+        "latitude": -11.400729513834301,
+        "egm96_N_m": 31.520722899890167
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r43_c17",
+        "longitude": -75.19107564340925,
+        "latitude": -11.40307415605226,
+        "egm96_N_m": 31.540101403548874
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r43_c43",
+        "longitude": -75.18869236308512,
+        "latitude": -11.403075696744862,
+        "egm96_N_m": 31.537122398742262
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r43_c75",
+        "longitude": -75.18575909452585,
+        "latitude": -11.403077566435977,
+        "egm96_N_m": 31.53345584685482
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r43_c107",
+        "longitude": -75.18282582545764,
+        "latitude": -11.403079406835,
+        "egm96_N_m": 31.529789202167194
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r43_c133",
+        "longitude": -75.18044254397054,
+        "latitude": -11.4030808805906,
+        "egm96_N_m": 31.526809985297717
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r75_c17",
+        "longitude": -75.19107757770703,
+        "latitude": -11.405968143639369,
+        "egm96_N_m": 31.547638942484255
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r75_c43",
+        "longitude": -75.18869427325683,
+        "latitude": -11.405969684733103,
+        "egm96_N_m": 31.544649688308606
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r75_c75",
+        "longitude": -75.18576097500387,
+        "latitude": -11.405971554911007,
+        "egm96_N_m": 31.540970521788978
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r75_c107",
+        "longitude": -75.182827676242,
+        "latitude": -11.405973395789191,
+        "egm96_N_m": 31.53729126244279
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r75_c133",
+        "longitude": -75.18044437062875,
+        "latitude": -11.4059748699285,
+        "egm96_N_m": 31.534301796143815
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r107_c17",
+        "longitude": -75.19107951252833,
+        "latitude": -11.40886213065692,
+        "egm96_N_m": 31.555176497185897
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r107_c43",
+        "longitude": -75.18869618394551,
+        "latitude": -11.408863672151796,
+        "egm96_N_m": 31.55217699342811
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r107_c75",
+        "longitude": -75.18576285599086,
+        "latitude": -11.408865542816496,
+        "egm96_N_m": 31.548485212014086
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r107_c107",
+        "longitude": -75.18282952752725,
+        "latitude": -11.408867384173856,
+        "egm96_N_m": 31.54479333774701
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r107_c133",
+        "longitude": -75.18044619778134,
+        "latitude": -11.408868858696872,
+        "egm96_N_m": 31.541793621805432
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r133_c17",
+        "longitude": -75.19108108495612,
+        "latitude": -11.411213494689207,
+        "egm96_N_m": 31.561300771994603
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r133_c43",
+        "longitude": -75.18869773676076,
+        "latitude": -11.411215036510011,
+        "egm96_N_m": 31.558292940294344
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r133_c75",
+        "longitude": -75.18576438466756,
+        "latitude": -11.411216907570243,
+        "egm96_N_m": 31.554590909085363
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r133_c107",
+        "longitude": -75.18283103206538,
+        "latitude": -11.411218749316935,
+        "egm96_N_m": 31.550888785001867
+      },
+      {
+        "sample_id": "point_0002",
+        "pixel_id": "r133_c133",
+        "longitude": -75.18044768270687,
+        "latitude": -11.411220224151725,
+        "egm96_N_m": 31.547880741068703
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r17_c17",
+        "longitude": -75.35151593652658,
+        "latitude": -11.351196459556,
+        "egm96_N_m": 31.588401081212528
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r17_c43",
+        "longitude": -75.34913311922996,
+        "latitude": -11.351199289277067,
+        "egm96_N_m": 31.585728318658077
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r17_c75",
+        "longitude": -75.34620042015297,
+        "latitude": -11.351202745589982,
+        "egm96_N_m": 31.58243876537871
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r17_c107",
+        "longitude": -75.34326772012815,
+        "latitude": -11.351206172748974,
+        "egm96_N_m": 31.57914921197658
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r17_c133",
+        "longitude": -75.34088490066563,
+        "latitude": -11.351208935848769,
+        "egm96_N_m": 31.57647644914174
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r43_c17",
+        "longitude": -75.35151881419566,
+        "latitude": -11.353547801414297,
+        "egm96_N_m": 31.593907520138718
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r43_c43",
+        "longitude": -75.34913597739319,
+        "latitude": -11.353550631736553,
+        "egm96_N_m": 31.591254085279008
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r43_c75",
+        "longitude": -75.34620325430895,
+        "latitude": -11.353554088783783,
+        "egm96_N_m": 31.587988319939655
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r43_c107",
+        "longitude": -75.34327053027685,
+        "latitude": -11.353557516670891,
+        "egm96_N_m": 31.584722554486284
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r43_c133",
+        "longitude": -75.3408876913084,
+        "latitude": -11.353560280357724,
+        "egm96_N_m": 31.582069119366054
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r75_c17",
+        "longitude": -75.3515223568144,
+        "latitude": -11.356441760109902,
+        "egm96_N_m": 31.60068461134741
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r75_c43",
+        "longitude": -75.34913949599883,
+        "latitude": -11.3564445911721,
+        "egm96_N_m": 31.59805496484375
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r75_c75",
+        "longitude": -75.34620674335993,
+        "latitude": -11.356448049123111,
+        "egm96_N_m": 31.594818477491003
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r75_c107",
+        "longitude": -75.34327398977314,
+        "latitude": -11.356451477906386,
+        "egm96_N_m": 31.59158199003498
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r75_c133",
+        "longitude": -75.34089112679146,
+        "latitude": -11.356454242315735,
+        "egm96_N_m": 31.588952343295247
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r107_c17",
+        "longitude": -75.35152590039561,
+        "latitude": -11.359335718237531,
+        "egm96_N_m": 31.60746163147468
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r107_c43",
+        "longitude": -75.34914301556039,
+        "latitude": -11.35933855003968,
+        "egm96_N_m": 31.604855773795137
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r107_c75",
+        "longitude": -75.3462102333588,
+        "latitude": -11.3593420088945,
+        "egm96_N_m": 31.601648565005192
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r107_c107",
+        "longitude": -75.3432774502093,
+        "latitude": -11.359345438573952,
+        "egm96_N_m": 31.598441356122706
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r107_c133",
+        "longitude": -75.34089456320785,
+        "latitude": -11.359348203705837,
+        "egm96_N_m": 31.59583549823161
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r133_c17",
+        "longitude": -75.35152878026405,
+        "latitude": -11.361687058797928,
+        "egm96_N_m": 31.61296790796873
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r133_c43",
+        "longitude": -75.34914587590805,
+        "latitude": -11.361689891201301,
+        "egm96_N_m": 31.61038137905366
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r133_c75",
+        "longitude": -75.3462130696809,
+        "latitude": -11.36169335079047,
+        "egm96_N_m": 31.607197959520413
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r133_c107",
+        "longitude": -75.34328026250576,
+        "latitude": -11.361696781198082,
+        "egm96_N_m": 31.60401453990329
+      },
+      {
+        "sample_id": "point_0023",
+        "pixel_id": "r133_c133",
+        "longitude": -75.34089735598347,
+        "latitude": -11.361699546917036,
+        "egm96_N_m": 31.60142801079661
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r17_c17",
+        "longitude": -75.461726502554,
+        "latitude": -10.79992227268031,
+        "egm96_N_m": 32.95746667355134
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r17_c43",
+        "longitude": -75.45934817258362,
+        "latitude": -10.799925814290413,
+        "egm96_N_m": 32.947419310109346
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r17_c75",
+        "longitude": -75.45642099610437,
+        "latitude": -10.799930148089397,
+        "egm96_N_m": 32.93505361997015
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r17_c107",
+        "longitude": -75.4534938183845,
+        "latitude": -10.79993445418543,
+        "egm96_N_m": 32.922688254305335
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r17_c133",
+        "longitude": -75.4511154855791,
+        "latitude": -10.79993793248995,
+        "egm96_N_m": 32.912641632338065
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r43_c17",
+        "longitude": -75.46173009439471,
+        "latitude": -10.802273667921872,
+        "egm96_N_m": 32.94611488177325
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r43_c43",
+        "longitude": -75.45935174592452,
+        "latitude": -10.802277210320925,
+        "egm96_N_m": 32.936110983626925
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r43_c75",
+        "longitude": -75.45642454667626,
+        "latitude": -10.802281545085338,
+        "egm96_N_m": 32.923798789325794
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r43_c107",
+        "longitude": -75.4534973461873,
+        "latitude": -10.802285852140624,
+        "egm96_N_m": 32.91148691959719
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r43_c133",
+        "longitude": -75.451118994882,
+        "latitude": -10.802289331219995,
+        "egm96_N_m": 32.901483763150146
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r75_c17",
+        "longitude": -75.46173451625917,
+        "latitude": -10.80516769234303,
+        "egm96_N_m": 32.93214327230044
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r75_c43",
+        "longitude": -75.45935614501413,
+        "latitude": -10.805171235713118,
+        "egm96_N_m": 32.922192870798845
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r75_c75",
+        "longitude": -75.45642891773524,
+        "latitude": -10.805175571665767,
+        "egm96_N_m": 32.90994651863222
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r75_c107",
+        "longitude": -75.4535016892156,
+        "latitude": -10.805179879901694,
+        "egm96_N_m": 32.89770049115918
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r75_c133",
+        "longitude": -75.45112331513532,
+        "latitude": -10.805183359934743,
+        "egm96_N_m": 32.88775083163322
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r107_c17",
+        "longitude": -75.46173893937878,
+        "latitude": -10.80806171622167,
+        "egm96_N_m": 32.91817147136898
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r107_c43",
+        "longitude": -75.45936054535244,
+        "latitude": -10.808065260562815,
+        "egm96_N_m": 32.90827456750156
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r107_c75",
+        "longitude": -75.45643329003494,
+        "latitude": -10.808069597703719,
+        "egm96_N_m": 32.89609405868705
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r107_c107",
+        "longitude": -75.45350603347667,
+        "latitude": -10.808073907120308,
+        "egm96_N_m": 32.88391387468723
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r107_c133",
+        "longitude": -75.45112763661493,
+        "latitude": -10.808077388107055,
+        "egm96_N_m": 32.87401771307172
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r133_c17",
+        "longitude": -75.46174253408769,
+        "latitude": -10.810413110223502,
+        "egm96_N_m": 32.906819242077766
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r133_c43",
+        "longitude": -75.45936412154677,
+        "latitude": -10.810416655353638,
+        "egm96_N_m": 32.89696580576687
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r133_c75",
+        "longitude": -75.45643684344208,
+        "latitude": -10.81042099346002,
+        "egm96_N_m": 32.884838795573145
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r133_c107",
+        "longitude": -75.45350956409655,
+        "latitude": -10.810425303835913,
+        "egm96_N_m": 32.872712110292206
+      },
+      {
+        "sample_id": "point_0502",
+        "pixel_id": "r133_c133",
+        "longitude": -75.45113114872014,
+        "latitude": -10.81042878559755,
+        "egm96_N_m": 32.86285941645787
+      }
+    ]
+  },
+  "band_mapping_changed": false,
+  "training_enabled": false,
+  "limitations": [
+    "Four train patches, 100 positions: not an audit of every Roy topographic pixel.",
+    "Correlation or lowest RMSE does not identify an exact DEM product.",
+    "Fixed EGM96 shift tests a datum hypothesis; it does not prove the original datum.",
+    "Native-grid GEE slope need not equal slope computed on another grid before export.",
+    "Original private COG, interpolation chain and vertical datum remain unverified."
+  ]
+}

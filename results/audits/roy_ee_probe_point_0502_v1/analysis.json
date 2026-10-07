@@ -1,0 +1,1821 @@
+{
+  "status": "measured_evidence_not_automatic_admission",
+  "input_csv_sha256": "5e36725f42a5b5c2c691ed92d7aba2d5d74ea1013e87618b2368b985806ef18b",
+  "prepared_reference_sha256": "5c45ed7df276efc55174795382ddeaa8c9af5d1a913fe2fb114d5e5e7bb8866e",
+  "rows": 450,
+  "samples": [
+    "point_0502"
+  ],
+  "source_hashes_and_reference_values_verified": true,
+  "ranking": "Complete coverage first, then control B2/B3/B4/B8 RMSE only.",
+  "scenes": [
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200609T151709_20200609T151945_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200609T151709_N0209_R125_T18LVP_20200609T201206",
+        "date": "2020-06-09 15:26:02",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 0.0,
+        "mae": 0.0,
+        "bias_candidate_minus_reference": 0.0,
+        "max_absolute_error": 0.0,
+        "exact_pixels": 100,
+        "pearson_r": 1.0
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "bias_candidate_minus_reference": 0.0,
+          "max_absolute_error": 0.0,
+          "exact_pixels": 25,
+          "pearson_r": 1.0
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "bias_candidate_minus_reference": 0.0,
+          "max_absolute_error": 0.0,
+          "exact_pixels": 25,
+          "pearson_r": 1.0
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "bias_candidate_minus_reference": 0.0,
+          "max_absolute_error": 0.0,
+          "exact_pixels": 25,
+          "pearson_r": 0.9999999999999999
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "bias_candidate_minus_reference": 0.0,
+          "max_absolute_error": 0.0,
+          "exact_pixels": 25,
+          "pearson_r": 1.0
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "bias_candidate_minus_reference": 0.0,
+          "max_absolute_error": 0.0,
+          "exact_pixels": 25,
+          "pearson_r": 1.0
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2310.167344587833,
+          "mae": 2264.6,
+          "bias_candidate_minus_reference": 2264.6,
+          "max_absolute_error": 3217.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.8001114690059954
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "bias_candidate_minus_reference": 0.0,
+          "max_absolute_error": 0.0,
+          "exact_pixels": 25,
+          "pearson_r": 1.0
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 952.4842465888871,
+          "mae": 940.32,
+          "bias_candidate_minus_reference": 940.32,
+          "max_absolute_error": 1162.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.18225499825164426
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200619T151709_20200619T151919_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200619T151709_N0209_R125_T18LVP_20200619T201400",
+        "date": "2020-06-19 15:26:02",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 71.69149182434413,
+        "mae": 60.35,
+        "bias_candidate_minus_reference": 46.57,
+        "max_absolute_error": 245.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9985559107062405
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 73.58912963203193,
+          "mae": 71.68,
+          "bias_candidate_minus_reference": 71.68,
+          "max_absolute_error": 105.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.981521698998645
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 50.48801838060194,
+          "mae": 48.0,
+          "bias_candidate_minus_reference": 48.0,
+          "max_absolute_error": 89.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9948570920487366
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 52.59581732419414,
+          "mae": 44.08,
+          "bias_candidate_minus_reference": 44.08,
+          "max_absolute_error": 149.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9943246125205434
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 99.13606810843366,
+          "mae": 77.64,
+          "bias_candidate_minus_reference": 22.52,
+          "max_absolute_error": 245.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9897385385894563
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 111.57956802210698,
+          "mae": 109.2,
+          "bias_candidate_minus_reference": -109.2,
+          "max_absolute_error": 136.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9944671597714371
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2393.790567280271,
+          "mae": 2344.08,
+          "bias_candidate_minus_reference": 2344.08,
+          "max_absolute_error": 3389.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.7925018381272659
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 1.2489995996796797,
+          "mae": 0.92,
+          "bias_candidate_minus_reference": 0.04,
+          "max_absolute_error": 3.0,
+          "exact_pixels": 9,
+          "pearson_r": 0.08487694747918387
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 841.9252698428763,
+          "mae": 831.12,
+          "bias_candidate_minus_reference": 831.12,
+          "max_absolute_error": 1038.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1690293866240833
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200629T151709_20200629T152119_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200629T151709_N0209_R125_T18LVP_20200629T200649",
+        "date": "2020-06-29 15:26:02",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 104.391426851059,
+        "mae": 95.13,
+        "bias_candidate_minus_reference": 79.93,
+        "max_absolute_error": 207.0,
+        "exact_pixels": 1,
+        "pearson_r": 0.9986158870432246
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 133.3082143005449,
+          "mae": 131.48,
+          "bias_candidate_minus_reference": 131.48,
+          "max_absolute_error": 207.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9680747057027521
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 92.43116357592822,
+          "mae": 86.96,
+          "bias_candidate_minus_reference": 86.96,
+          "max_absolute_error": 154.0,
+          "exact_pixels": 1,
+          "pearson_r": 0.9757422949787178
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 110.26676743244086,
+          "mae": 101.72,
+          "bias_candidate_minus_reference": 101.72,
+          "max_absolute_error": 195.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9908534989176087
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 71.5326498880057,
+          "mae": 60.36,
+          "bias_candidate_minus_reference": -0.44,
+          "max_absolute_error": 175.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9936096703343861
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 97.59405719612235,
+          "mae": 93.48,
+          "bias_candidate_minus_reference": -93.48,
+          "max_absolute_error": 133.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9871109471876891
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2351.476030071325,
+          "mae": 2306.96,
+          "bias_candidate_minus_reference": 2306.96,
+          "max_absolute_error": 3230.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.8079659964432657
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 4.233202097703345,
+          "mae": 4.0,
+          "bias_candidate_minus_reference": 4.0,
+          "max_absolute_error": 7.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.0159434189858268
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 857.66308070244,
+          "mae": 846.84,
+          "bias_candidate_minus_reference": 846.84,
+          "max_absolute_error": 1042.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1634225840094268
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200719T151709_20200719T151705_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200719T151709_N0209_R125_T18LVP_20200719T201330",
+        "date": "2020-07-19 15:26:01",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 116.61560787476091,
+        "mae": 72.08,
+        "bias_candidate_minus_reference": 17.62,
+        "max_absolute_error": 541.0,
+        "exact_pixels": 1,
+        "pearson_r": 0.9947002631129537
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 47.247010487437194,
+          "mae": 40.68,
+          "bias_candidate_minus_reference": 40.68,
+          "max_absolute_error": 119.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9700410220799484
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 41.40289844926319,
+          "mae": 35.08,
+          "bias_candidate_minus_reference": 24.44,
+          "max_absolute_error": 95.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9723564100607223
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 91.03955184423965,
+          "mae": 69.16,
+          "bias_candidate_minus_reference": 69.16,
+          "max_absolute_error": 273.0,
+          "exact_pixels": 1,
+          "pearson_r": 0.9769516819130272
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 205.33416666497567,
+          "mae": 143.4,
+          "bias_candidate_minus_reference": -63.8,
+          "max_absolute_error": 541.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9548348908908628
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 142.852091339259,
+          "mae": 137.84,
+          "bias_candidate_minus_reference": 137.84,
+          "max_absolute_error": 206.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9720168064928394
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2225.9484450453924,
+          "mae": 2188.0,
+          "bias_candidate_minus_reference": 2188.0,
+          "max_absolute_error": 3102.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.7565333395806517
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 1.8,
+          "mae": 1.48,
+          "bias_candidate_minus_reference": 1.32,
+          "max_absolute_error": 4.0,
+          "exact_pixels": 4,
+          "pearson_r": 0.08006407690254369
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1089.8343727374356,
+          "mae": 1078.16,
+          "bias_candidate_minus_reference": 1078.16,
+          "max_absolute_error": 1338.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.13985318022588852
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200803T151711_20200803T151800_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200803T151711_N0209_R125_T18LVP_20200803T184936",
+        "date": "2020-08-03 15:26:06",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 162.0703242422869,
+        "mae": 114.45,
+        "bias_candidate_minus_reference": 48.95,
+        "max_absolute_error": 678.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9905045366645947
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 84.13655566993458,
+          "mae": 79.76,
+          "bias_candidate_minus_reference": 79.76,
+          "max_absolute_error": 148.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9566645483912931
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 66.31832325986537,
+          "mae": 58.12,
+          "bias_candidate_minus_reference": 53.48,
+          "max_absolute_error": 125.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9631677846649317
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 136.77192694409186,
+          "mae": 116.08,
+          "bias_candidate_minus_reference": 115.12,
+          "max_absolute_error": 380.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9600657208985361
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 273.6485337070162,
+          "mae": 203.84,
+          "bias_candidate_minus_reference": -52.56,
+          "max_absolute_error": 678.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9211559069503167
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 341.6063816734108,
+          "mae": 337.0,
+          "bias_candidate_minus_reference": 337.0,
+          "max_absolute_error": 434.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9367424511392061
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2181.3073144332507,
+          "mae": 2154.72,
+          "bias_candidate_minus_reference": 2154.72,
+          "max_absolute_error": 2965.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.6982294740662187
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 4.516635916254486,
+          "mae": 4.24,
+          "bias_candidate_minus_reference": 4.24,
+          "max_absolute_error": 8.0,
+          "exact_pixels": 1,
+          "pearson_r": 0.2899167538069004
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1287.2393250674095,
+          "mae": 1277.32,
+          "bias_candidate_minus_reference": 1277.32,
+          "max_absolute_error": 1576.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.11570040137782693
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200714T151711_20200714T151708_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200714T151711_N0209_R125_T18LVP_20200714T220700",
+        "date": "2020-07-14 15:26:04",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 207.08017770902168,
+        "mae": 180.3,
+        "bias_candidate_minus_reference": 176.92,
+        "max_absolute_error": 545.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9956616157858743
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 171.46754795004213,
+          "mae": 168.64,
+          "bias_candidate_minus_reference": 168.64,
+          "max_absolute_error": 247.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9730316640449388
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 144.8610368594675,
+          "mae": 139.6,
+          "bias_candidate_minus_reference": 139.6,
+          "max_absolute_error": 226.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9715766099841208
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 167.53841350567936,
+          "mae": 148.56,
+          "bias_candidate_minus_reference": 148.56,
+          "max_absolute_error": 407.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9797924193329772
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 305.0800550675183,
+          "mae": 264.4,
+          "bias_candidate_minus_reference": 250.88,
+          "max_absolute_error": 545.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.96416635427532
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 78.82182438893432,
+          "mae": 69.52,
+          "bias_candidate_minus_reference": -67.52,
+          "max_absolute_error": 157.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9708281486925983
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2690.6535339950406,
+          "mae": 2643.8,
+          "bias_candidate_minus_reference": 2643.8,
+          "max_absolute_error": 3838.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.755035320625512
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 2.1633307652783933,
+          "mae": 1.96,
+          "bias_candidate_minus_reference": 1.96,
+          "max_absolute_error": 4.0,
+          "exact_pixels": 1,
+          "pearson_r": 0.6398216445701291
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 882.3139577270667,
+          "mae": 872.8,
+          "bias_candidate_minus_reference": 872.8,
+          "max_absolute_error": 1087.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.16565162242905382
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200828T151709_20200828T152025_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200828T151709_N0500_R125_T18LVP_20230321T193250",
+        "date": "2020-08-28 15:26:03",
+        "baseline": "05.00",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 293.77430112247737,
+        "mae": 216.7,
+        "bias_candidate_minus_reference": 47.16,
+        "max_absolute_error": 1070.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9764513549988119
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 172.30774793955146,
+          "mae": 169.4,
+          "bias_candidate_minus_reference": 169.4,
+          "max_absolute_error": 245.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9211840761234985
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 131.14450045655747,
+          "mae": 117.68,
+          "bias_candidate_minus_reference": 115.04,
+          "max_absolute_error": 259.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9311428868536503
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 184.8249983092114,
+          "mae": 171.72,
+          "bias_candidate_minus_reference": 169.88,
+          "max_absolute_error": 310.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9436320748207965
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 513.9691041298105,
+          "mae": 408.0,
+          "bias_candidate_minus_reference": -265.68,
+          "max_absolute_error": 1070.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.7640162047975446
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 84.89051772724677,
+          "mae": 60.72,
+          "bias_candidate_minus_reference": 12.08,
+          "max_absolute_error": 224.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.8523384705272583
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 1999.6834449482249,
+          "mae": 1982.04,
+          "bias_candidate_minus_reference": 1982.04,
+          "max_absolute_error": 2492.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.6098690476699793
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 1.296148139681572,
+          "mae": 0.96,
+          "bias_candidate_minus_reference": 0.56,
+          "max_absolute_error": 2.0,
+          "exact_pixels": 10,
+          "pearson_r": 0.12081655442145167
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 957.8499256146549,
+          "mae": 952.4,
+          "bias_candidate_minus_reference": 952.4,
+          "max_absolute_error": 1141.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.036433310778199786
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200823T151711_20200823T152545_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200823T151711_N0209_R125_T18LVP_20200823T202612",
+        "date": "2020-08-23 15:26:05",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 296.51011787121195,
+        "mae": 248.77,
+        "bias_candidate_minus_reference": 122.09,
+        "max_absolute_error": 994.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9771796877088276
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 266.9764034516908,
+          "mae": 264.88,
+          "bias_candidate_minus_reference": 264.88,
+          "max_absolute_error": 335.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9115913348567268
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 189.04623773035,
+          "mae": 182.48,
+          "bias_candidate_minus_reference": 182.48,
+          "max_absolute_error": 285.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9566363267106355
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 219.92798821432436,
+          "mae": 205.76,
+          "bias_candidate_minus_reference": 201.12,
+          "max_absolute_error": 377.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9173116210797365
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 443.04604726822697,
+          "mae": 341.96,
+          "bias_candidate_minus_reference": -160.12,
+          "max_absolute_error": 994.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.7740359398463957
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 127.62883686690873,
+          "mae": 117.52,
+          "bias_candidate_minus_reference": -96.32,
+          "max_absolute_error": 216.0,
+          "exact_pixels": 1,
+          "pearson_r": 0.8620668122430906
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2166.5508440837475,
+          "mae": 2138.16,
+          "bias_candidate_minus_reference": 2138.16,
+          "max_absolute_error": 2740.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.5512070670919704
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 2.3323807579381204,
+          "mae": 2.0,
+          "bias_candidate_minus_reference": 2.0,
+          "max_absolute_error": 5.0,
+          "exact_pixels": 2,
+          "pearson_r": 0.3801734763412538
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 849.6668994376561,
+          "mae": 844.0,
+          "bias_candidate_minus_reference": 844.0,
+          "max_absolute_error": 1020.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.009328113285549815
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200729T151709_20200729T151927_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200729T151709_N0209_R125_T18LVP_20200729T200822",
+        "date": "2020-07-29 15:26:02",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 412.1374770631761,
+        "mae": 206.88,
+        "bias_candidate_minus_reference": 27.74,
+        "max_absolute_error": 2723.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.9133568969572804
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 142.96936734839392,
+          "mae": 134.96,
+          "bias_candidate_minus_reference": 133.6,
+          "max_absolute_error": 215.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.8734405200646846
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 124.75880730433423,
+          "mae": 115.48,
+          "bias_candidate_minus_reference": 76.68,
+          "max_absolute_error": 229.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.8198387040188974
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 166.75059220284646,
+          "mae": 149.12,
+          "bias_candidate_minus_reference": 118.08,
+          "max_absolute_error": 390.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.9226912318245903
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 784.6135609330239,
+          "mae": 427.96,
+          "bias_candidate_minus_reference": -217.4,
+          "max_absolute_error": 2723.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.5238440857613625
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 244.61193756642376,
+          "mae": 129.4,
+          "bias_candidate_minus_reference": -119.0,
+          "max_absolute_error": 837.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.5206641676641702
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2221.4901035116045,
+          "mae": 2077.0,
+          "bias_candidate_minus_reference": 2038.52,
+          "max_absolute_error": 3217.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.5143987328157157
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 1.4422205101855958,
+          "mae": 1.12,
+          "bias_candidate_minus_reference": 0.4,
+          "max_absolute_error": 4.0,
+          "exact_pixels": 6,
+          "pearson_r": 0.18521025283926668
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 858.1457451971663,
+          "mae": 821.32,
+          "bias_candidate_minus_reference": 821.32,
+          "max_absolute_error": 1114.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.32998525705769594
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200813T151711_20200813T151800_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200813T151711_N0209_R125_T18LVP_20200813T184843",
+        "date": "2020-08-13 15:26:06",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 891.8787249396636,
+        "mae": 587.82,
+        "bias_candidate_minus_reference": 549.08,
+        "max_absolute_error": 4438.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.7803278481867949
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 1010.9063853789826,
+          "mae": 713.24,
+          "bias_candidate_minus_reference": 713.24,
+          "max_absolute_error": 4162.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.20746181231236585
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 885.1104563838346,
+          "mae": 583.88,
+          "bias_candidate_minus_reference": 583.88,
+          "max_absolute_error": 3778.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.4921537746452051
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 1013.4244323085959,
+          "mae": 624.68,
+          "bias_candidate_minus_reference": 624.68,
+          "max_absolute_error": 4438.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.3105844629806096
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 591.1085517906165,
+          "mae": 429.48,
+          "bias_candidate_minus_reference": 274.52,
+          "max_absolute_error": 1967.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.7131965112741754
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 322.0001863353498,
+          "mae": 157.32,
+          "bias_candidate_minus_reference": 60.92,
+          "max_absolute_error": 1409.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.4983860733954386
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2792.5933395322704,
+          "mae": 2682.44,
+          "bias_candidate_minus_reference": 2682.44,
+          "max_absolute_error": 5739.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.5019151895022033
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 9.703607576566563,
+          "mae": 8.56,
+          "bias_candidate_minus_reference": 8.56,
+          "max_absolute_error": 28.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.07868028855629534
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1065.0592283999983,
+          "mae": 1001.24,
+          "bias_candidate_minus_reference": 1001.24,
+          "max_absolute_error": 2571.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.025564973706640223
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200818T151709_20200818T152416_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200818T151709_N0209_R125_T18LVP_20200818T202904",
+        "date": "2020-08-18 15:26:03",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 1272.4609620731003,
+        "mae": 1169.16,
+        "bias_candidate_minus_reference": 1096.7,
+        "max_absolute_error": 2568.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.8167838880351764
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 1493.2552896273296,
+          "mae": 1464.72,
+          "bias_candidate_minus_reference": 1464.72,
+          "max_absolute_error": 2568.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.12180376154075466
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 1321.60251210415,
+          "mae": 1290.56,
+          "bias_candidate_minus_reference": 1290.56,
+          "max_absolute_error": 2257.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.24782824371791332
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 1446.4797129583255,
+          "mae": 1408.2,
+          "bias_candidate_minus_reference": 1408.2,
+          "max_absolute_error": 2382.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.22410083786174198
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 638.6544292494964,
+          "mae": 513.16,
+          "bias_candidate_minus_reference": 223.32,
+          "max_absolute_error": 1676.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.37647440787632164
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 514.9893591133704,
+          "mae": 496.6,
+          "bias_candidate_minus_reference": 496.6,
+          "max_absolute_error": 739.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.5315367056618505
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2415.8612956873167,
+          "mae": 2394.6,
+          "bias_candidate_minus_reference": 2394.6,
+          "max_absolute_error": 3120.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.5647204826055916
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 577.0789893939997,
+          "mae": 576.16,
+          "bias_candidate_minus_reference": 576.16,
+          "max_absolute_error": 644.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.24843082185758703
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1442.4272737299443,
+          "mae": 1436.92,
+          "bias_candidate_minus_reference": 1436.92,
+          "max_absolute_error": 1767.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.12115038989674044
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200724T151711_20200724T151814_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200724T151711_N0209_R125_T18LVP_20200724T185005",
+        "date": "2020-07-24 15:26:05",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 1283.2184459397395,
+        "mae": 1161.3,
+        "bias_candidate_minus_reference": 1075.66,
+        "max_absolute_error": 2477.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.7228984285015394
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 1433.86553065481,
+          "mae": 1374.04,
+          "bias_candidate_minus_reference": 1374.04,
+          "max_absolute_error": 2038.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.01498879940390259
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 1305.979616992547,
+          "mae": 1231.72,
+          "bias_candidate_minus_reference": 1231.72,
+          "max_absolute_error": 2004.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.002757114835065508
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 1467.7281492156508,
+          "mae": 1366.72,
+          "bias_candidate_minus_reference": 1366.72,
+          "max_absolute_error": 2477.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.01790321083615992
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 819.0355792027597,
+          "mae": 672.72,
+          "bias_candidate_minus_reference": 330.16,
+          "max_absolute_error": 1982.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.019034214327623665
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 882.5518455025745,
+          "mae": 751.12,
+          "bias_candidate_minus_reference": 751.12,
+          "max_absolute_error": 1982.0,
+          "exact_pixels": 1,
+          "pearson_r": -0.09574689200313877
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 2517.855762350179,
+          "mae": 2476.84,
+          "bias_candidate_minus_reference": 2476.84,
+          "max_absolute_error": 3643.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.03837571831196998
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 577.5755881267836,
+          "mae": 549.72,
+          "bias_candidate_minus_reference": 549.72,
+          "max_absolute_error": 911.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.27931201497693325
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1743.5952970801452,
+          "mae": 1691.44,
+          "bias_candidate_minus_reference": 1691.44,
+          "max_absolute_error": 2771.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.25482273082300205
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200604T151711_20200604T151847_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200604T151711_N0209_R125_T18LVP_20200604T184048",
+        "date": "2020-06-04 15:26:06",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 1831.6493523597796,
+        "mae": 1615.79,
+        "bias_candidate_minus_reference": 1580.05,
+        "max_absolute_error": 3889.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.5281871712331448
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 2039.5431449224113,
+          "mae": 1908.96,
+          "bias_candidate_minus_reference": 1908.96,
+          "max_absolute_error": 3633.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1613271592755068
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 1880.6641273762841,
+          "mae": 1739.08,
+          "bias_candidate_minus_reference": 1739.08,
+          "max_absolute_error": 3609.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.0964098641281433
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 2041.034678784268,
+          "mae": 1886.16,
+          "bias_candidate_minus_reference": 1886.16,
+          "max_absolute_error": 3889.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1957657573516476
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 1247.9186832482314,
+          "mae": 928.96,
+          "bias_candidate_minus_reference": 786.0,
+          "max_absolute_error": 3852.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.061357185805762195
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 895.6037739983011,
+          "mae": 728.04,
+          "bias_candidate_minus_reference": 724.84,
+          "max_absolute_error": 1970.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.24900989452387973
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 3015.196073226416,
+          "mae": 2929.76,
+          "bias_candidate_minus_reference": 2929.76,
+          "max_absolute_error": 4672.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.16989680293210782
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 125.77710443478972,
+          "mae": 119.64,
+          "bias_candidate_minus_reference": 119.64,
+          "max_absolute_error": 205.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.0018196767914909324
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1729.4720003515524,
+          "mae": 1665.16,
+          "bias_candidate_minus_reference": 1665.16,
+          "max_absolute_error": 2657.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.01677716204349072
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200624T151711_20200624T151850_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200624T151711_N0209_R125_T18LVP_20200624T183952",
+        "date": "2020-06-24 15:26:05",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 2103.2098444995927,
+        "mae": 1777.73,
+        "bias_candidate_minus_reference": 1743.93,
+        "max_absolute_error": 4645.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.48099059540123024
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 2246.6981550711257,
+          "mae": 1961.8,
+          "bias_candidate_minus_reference": 1961.8,
+          "max_absolute_error": 4582.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.4340792476346601
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 2127.223316908688,
+          "mae": 1845.28,
+          "bias_candidate_minus_reference": 1845.28,
+          "max_absolute_error": 4405.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.2828107646082084
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 2322.115165102713,
+          "mae": 2035.48,
+          "bias_candidate_minus_reference": 2035.48,
+          "max_absolute_error": 4645.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.474488893536548
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 1651.9734017229212,
+          "mae": 1268.36,
+          "bias_candidate_minus_reference": 1133.16,
+          "max_absolute_error": 4193.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.020343733634694067
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 821.8546586836385,
+          "mae": 642.92,
+          "bias_candidate_minus_reference": 609.24,
+          "max_absolute_error": 2029.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1283777175351228
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 3540.6939319856497,
+          "mae": 3394.4,
+          "bias_candidate_minus_reference": 3394.4,
+          "max_absolute_error": 5795.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1552929308048736
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 46.12764897542471,
+          "mae": 45.36,
+          "bias_candidate_minus_reference": 45.36,
+          "max_absolute_error": 71.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.02182099370817106
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 1644.259651028389,
+          "mae": 1549.56,
+          "bias_candidate_minus_reference": 1549.56,
+          "max_absolute_error": 2949.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.22701872223851752
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200704T151711_20200704T151850_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200704T151711_N0209_R125_T18LVP_20200704T183937",
+        "date": "2020-07-04 15:26:04",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 3594.3431402691645,
+        "mae": 3467.83,
+        "bias_candidate_minus_reference": 3467.83,
+        "max_absolute_error": 4727.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.3710155516879014
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 4057.4462707471557,
+          "mae": 4033.76,
+          "bias_candidate_minus_reference": 4033.76,
+          "max_absolute_error": 4727.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.17843806581627328
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 3745.2509448633746,
+          "mae": 3717.28,
+          "bias_candidate_minus_reference": 3717.28,
+          "max_absolute_error": 4438.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.15427370768109344
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 4015.5150155366123,
+          "mae": 3985.72,
+          "bias_candidate_minus_reference": 3985.72,
+          "max_absolute_error": 4705.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.07490833478341326
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 2250.127711931036,
+          "mae": 2134.56,
+          "bias_candidate_minus_reference": 2134.56,
+          "max_absolute_error": 3948.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.14661234804579112
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 2548.999340917922,
+          "mae": 2475.16,
+          "bias_candidate_minus_reference": 2475.16,
+          "max_absolute_error": 3387.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.19761925646534115
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 4137.58037021639,
+          "mae": 4103.56,
+          "bias_candidate_minus_reference": 4103.56,
+          "max_absolute_error": 4910.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.17655656205726397
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 1780.1600826891945,
+          "mae": 1751.44,
+          "bias_candidate_minus_reference": 1751.44,
+          "max_absolute_error": 2216.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.20532780915763943
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 3461.2160695339435,
+          "mae": 3415.48,
+          "bias_candidate_minus_reference": 3415.48,
+          "max_absolute_error": 4262.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.2769788095313334
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200808T151709_20200808T152329_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200808T151709_N0209_R125_T18LVP_20200808T185632",
+        "date": "2020-08-08 15:26:03",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 4411.630522833933,
+        "mae": 4280.19,
+        "bias_candidate_minus_reference": 4280.19,
+        "max_absolute_error": 7019.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.3262800720935508
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 4721.446634242518,
+          "mae": 4670.0,
+          "bias_candidate_minus_reference": 4670.0,
+          "max_absolute_error": 6503.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.20500951285311297
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 4532.6873176957615,
+          "mae": 4467.04,
+          "bias_candidate_minus_reference": 4467.04,
+          "max_absolute_error": 6386.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.15363357450843798
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 4955.546097051262,
+          "mae": 4857.04,
+          "bias_candidate_minus_reference": 4857.04,
+          "max_absolute_error": 7019.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.2892789788642311
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 3233.4479615419823,
+          "mae": 3126.68,
+          "bias_candidate_minus_reference": 3126.68,
+          "max_absolute_error": 4807.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.24129809286278733
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 2151.300053456049,
+          "mae": 2116.48,
+          "bias_candidate_minus_reference": 2116.48,
+          "max_absolute_error": 2914.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.4323975800893093
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 5323.2923947497,
+          "mae": 5258.72,
+          "bias_candidate_minus_reference": 5258.72,
+          "max_absolute_error": 6827.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.3949516089858858
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 69.56435869035235,
+          "mae": 68.88,
+          "bias_candidate_minus_reference": 68.88,
+          "max_absolute_error": 97.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.03915183939878873
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 3086.332425387777,
+          "mae": 3056.8,
+          "bias_candidate_minus_reference": 3056.8,
+          "max_absolute_error": 3997.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.10323704521223726
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200614T151711_20200614T152018_T18LVP",
+      "metadata": {
+        "product_id": "S2A_MSIL1C_20200614T151711_N0209_R125_T18LVP_20200614T200851",
+        "date": "2020-06-14 15:26:06",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 6755.452018185016,
+        "mae": 6684.73,
+        "bias_candidate_minus_reference": 6684.73,
+        "max_absolute_error": 7704.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.2899240789597532
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 7292.289577354975,
+          "mae": 7291.28,
+          "bias_candidate_minus_reference": 7291.28,
+          "max_absolute_error": 7475.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.3258253864415054
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 6917.639981959165,
+          "mae": 6915.64,
+          "bias_candidate_minus_reference": 6915.64,
+          "max_absolute_error": 7204.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.19120262709530836
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 7390.1014228493505,
+          "mae": 7385.92,
+          "bias_candidate_minus_reference": 7385.92,
+          "max_absolute_error": 7704.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.2894842590374987
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 5186.491939644754,
+          "mae": 5146.08,
+          "bias_candidate_minus_reference": 5146.08,
+          "max_absolute_error": 6633.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.10288473355174198
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 3743.4542390685106,
+          "mae": 3736.84,
+          "bias_candidate_minus_reference": 3736.84,
+          "max_absolute_error": 4220.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.10692871750383172
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 7404.501687487146,
+          "mae": 7402.52,
+          "bias_candidate_minus_reference": 7402.52,
+          "max_absolute_error": 7795.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.07491281567436593
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 957.9036903572301,
+          "mae": 946.76,
+          "bias_candidate_minus_reference": 946.76,
+          "max_absolute_error": 1318.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1983112220289249
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 4680.597444771341,
+          "mae": 4677.16,
+          "bias_candidate_minus_reference": 4677.16,
+          "max_absolute_error": 5144.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.25097500413622814
+        }
+      }
+    },
+    {
+      "sample_id": "point_0502",
+      "scene_id": "20200709T151709_20200709T151705_T18LVP",
+      "metadata": {
+        "product_id": "S2B_MSIL1C_20200709T151709_N0209_R125_T18LVP_20200709T184134",
+        "date": "2020-07-09 15:26:02",
+        "baseline": "02.09",
+        "mgrs_tile": "18LVP",
+        "collection": "COPERNICUS/S2_HARMONIZED",
+        "window_start": "2020-06-01",
+        "window_end_exclusive": "2020-08-31"
+      },
+      "returned_pixels": 25,
+      "expected_pixels": 25,
+      "complete": true,
+      "missing_pixel_ids": [],
+      "control_pooled": {
+        "n": 100,
+        "rmse": 7249.556765761614,
+        "mae": 7189.3,
+        "bias_candidate_minus_reference": 7189.3,
+        "max_absolute_error": 8343.0,
+        "exact_pixels": 0,
+        "pearson_r": 0.38291303097645196
+      },
+      "comparisons": {
+        "B2_vs_B2": {
+          "n": 25,
+          "rmse": 7716.09706263471,
+          "mae": 7710.44,
+          "bias_candidate_minus_reference": 7710.44,
+          "max_absolute_error": 8211.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1738724713620107
+        },
+        "B3_vs_B3": {
+          "n": 25,
+          "rmse": 7348.268198698249,
+          "mae": 7341.28,
+          "bias_candidate_minus_reference": 7341.28,
+          "max_absolute_error": 7720.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.1660024154889361
+        },
+        "B4_vs_B4": {
+          "n": 25,
+          "rmse": 7893.401256746042,
+          "mae": 7885.56,
+          "bias_candidate_minus_reference": 7885.56,
+          "max_absolute_error": 8343.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.30994089759091437
+        },
+        "B8_vs_B8": {
+          "n": 25,
+          "rmse": 5863.728370243628,
+          "mae": 5819.92,
+          "bias_candidate_minus_reference": 5819.92,
+          "max_absolute_error": 7150.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.04076616732161015
+        },
+        "B9_vs_B9": {
+          "n": 25,
+          "rmse": 4517.914988133353,
+          "mae": 4491.52,
+          "bias_candidate_minus_reference": 4491.52,
+          "max_absolute_error": 5247.0,
+          "exact_pixels": 0,
+          "pearson_r": -0.5069901216317794
+        },
+        "B9_vs_B8A": {
+          "n": 25,
+          "rmse": 7892.051735765548,
+          "mae": 7881.64,
+          "bias_candidate_minus_reference": 7881.64,
+          "max_absolute_error": 8543.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.06133120280950579
+        },
+        "B10_vs_B10": {
+          "n": 25,
+          "rmse": 1271.8876522712217,
+          "mae": 1207.08,
+          "bias_candidate_minus_reference": 1207.08,
+          "max_absolute_error": 2024.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.3220933633122591
+        },
+        "B10_vs_B9": {
+          "n": 25,
+          "rmse": 5446.012941593143,
+          "mae": 5431.84,
+          "bias_candidate_minus_reference": 5431.84,
+          "max_absolute_error": 6034.0,
+          "exact_pixels": 0,
+          "pearson_r": 0.12223513112586451
+        }
+      }
+    }
+  ],
+  "band_mapping_changed": false,
+  "training_enabled": false,
+  "limitations": [
+    "Sparse pixel probe, not a full-patch comparison.",
+    "Returned CSV alone does not prove that all candidate scenes were searched.",
+    "Residual error does not identify its processing/geometric cause.",
+    "Do not generalize a single point to every Roy sample or to topographic layers."
+  ]
+}

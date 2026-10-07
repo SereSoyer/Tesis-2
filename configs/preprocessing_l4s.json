@@ -1,0 +1,17 @@
+{
+  "dataset": "landslide4sense",
+  "image_key": "img",
+  "layout": "HWC",
+  "expected_source_shape": [128, 128, 14],
+  "channels": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+  "normalization": "none",
+  "nan_policy": "error",
+  "seed": 42,
+  "batch_size": 8,
+  "num_workers": 0,
+  "manifests": {
+    "train": "metadata/landslide4sense_traindata.csv",
+    "val": "metadata/landslide4sense_validdata.csv",
+    "test": "metadata/landslide4sense_testdata.csv"
+  }
+}

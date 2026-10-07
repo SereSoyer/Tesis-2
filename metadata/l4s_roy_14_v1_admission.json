@@ -1,0 +1,139 @@
+{
+  "status": "admitted",
+  "dataset_version": "l4s_roy_14_v1",
+  "admission_id": "l4s_roy_14_v1_admission_v1",
+  "timestamp": "2026-10-04T14:08:48.281961+00:00",
+  "band_mapping_status": "empirically_supported_mapping",
+  "authorization": "User requested unification for the first full joint training after accepting order and units.",
+  "channel_order": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12",
+    "slope",
+    "elevation"
+  ],
+  "roy_topography_units": {
+    "B13": "radian",
+    "B14": "metre"
+  },
+  "preprocessing": {
+    "normalization": "per_image_minmax",
+    "nan_policy": "error",
+    "channels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "samples": 5650,
+  "split_counts": {
+    "train": 4365,
+    "val": 363,
+    "test": 922
+  },
+  "class_counts_by_source": {
+    "train": {
+      "landslide4sense": {
+        "1": 2231,
+        "0": 1568
+      },
+      "roy_l4s_pe": {
+        "1": 546,
+        "0": 20
+      }
+    },
+    "val": {
+      "landslide4sense": {
+        "0": 99,
+        "1": 146
+      },
+      "roy_l4s_pe": {
+        "1": 114,
+        "0": 4
+      }
+    },
+    "test": {
+      "landslide4sense": {
+        "1": 536,
+        "0": 264
+      },
+      "roy_l4s_pe": {
+        "1": 118,
+        "0": 4
+      }
+    }
+  },
+  "manifest_sha256": {
+    "train": "73623baf1398e52299a50ca17eb3ee444fdd77aa4c7518be76bd4329af06c8ed",
+    "val": "09625823c0e2eaeecc0493bca28468460f52ebeb26c20ae84db5f4e320b6a908",
+    "test": "7352e348123b645e184ffff958b13549a59ba805ef78ff5da769f6a31332f756"
+  },
+  "proposal_manifest_sha256": {
+    "train": "a10ddd88f8721905e6e3e08abfb1364a4a36f4add666eb090bb6c9c3f72be689",
+    "val": "4b983c684f7d581c35812a2daea9db6e4369b8591745042ecf49141617df6054",
+    "test": "ddfcf4f640153a0580ae72e72bbd9270b6cffd22110ed3cec901e430f42c72bd"
+  },
+  "reconstruction_validation": {
+    "status": "passed",
+    "samples_checked": 806,
+    "normalized_shape": [
+      14,
+      128,
+      128
+    ],
+    "labels": {
+      "1": 778,
+      "0": 28
+    },
+    "split_counts": {
+      "train": 4365,
+      "val": 363,
+      "test": 922
+    },
+    "reconstructed_file_and_array_hashes_match": true,
+    "original_masks_unchanged": true,
+    "original_l4s_manifests_and_assignments_unchanged": true,
+    "known_groups_disjoint": true,
+    "joint_training_enabled": false,
+    "physical_band_equivalence_verified": false
+  },
+  "evidence_sha256": {
+    "results/audits/roy14_reconstruction_v1/summary.json": "ed7ecc7f8a26d1f9d5dc06a997f29570cbfa498dcd35ad1e3aaf37f5bbb86be3",
+    "results/audits/roy_ee_probe_comparison_v1/summary.json": "8a99ad2a4268b9cd58972e1fb7ae801afcd8e69346a0f3bc27efb6c0558dabee",
+    "results/audits/roy_topography_comparison_v1/analysis.json": "5e4904a359f9ff2b6ec68ddfded99cfd1fb4c1da03c4b846002e0f6e80a0bf0b",
+    "results/audits/roy_topography_comparison_v1/decision.json": "ea9d9d49620422a051e336a8dfc7247543127161b696d141c40a68e7290e019d"
+  },
+  "arrays_modified": false,
+  "split_assignments_modified": false,
+  "gt_training_policy": "Image labels only; segmenter targets pseudo masks only.",
+  "caveats": [
+    "Exact original topographic product, vertical datum and resampling chain are not certified.",
+    "Empirical channel mapping is supported by sampled checks, not exhaustive source certification.",
+    "Reconstruction follows the documented IRIS geometry convention.",
+    "Min-max provides the same preprocessing, not identical physical provenance.",
+    "Roy overlap groups are disjoint; event/acquisition and cross-source geographic independence are not certified.",
+    "L4S test was evaluated previously; Roy has only four negatives in val and four in test.",
+    "Ground-truth validation masks are used for pseudo-threshold and segmenter checkpoint selection.",
+    "One seed is the first formal run, not statistical proof of CNN/ViT superiority."
+  ]
+}

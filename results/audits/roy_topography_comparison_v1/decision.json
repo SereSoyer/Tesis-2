@@ -1,0 +1,24 @@
+{
+  "status": "mapping_supported_source_partially_inferred",
+  "scope": "Adoption for preprocessing; not exhaustive source certification or training admission.",
+  "mapping": {
+    "B13.tif": {
+      "variable": "slope",
+      "adopted_unit": "radian",
+      "evidence": "Lower common-unit RMSE than degree hypothesis in all 12 point/source groups."
+    },
+    "B14.tif": {
+      "variable": "elevation",
+      "adopted_unit": "metre",
+      "evidence": "High within-patch correlation to public DEMs and compatible magnitude."
+    }
+  },
+  "source_hypothesis": "Compatible with SRTM-derived auxiliary PALSAR RTC DEM and ellipsoidal heights; exact source and datum unverified.",
+  "recommendation": "Preserve reconstructed 14-channel order and common per-image min-max; declare partial provenance.",
+  "additional_csv_needed_to_adopt_order_and_units": false,
+  "dataset_correction_applied": false,
+  "training_admission_performed": false,
+  "training_enabled": false,
+  "next_implementation_step": "Formalize admission/configurations with evidence and limitations; preserve proposed splits and original files.",
+  "analysis_sha256": "5e4904a359f9ff2b6ec68ddfded99cfd1fb4c1da03c4b846002e0f6e80a0bf0b"
+}

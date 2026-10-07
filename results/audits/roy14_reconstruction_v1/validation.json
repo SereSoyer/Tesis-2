@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "samples_checked": 806,
+  "normalized_shape": [
+    14,
+    128,
+    128
+  ],
+  "labels": {
+    "1": 778,
+    "0": 28
+  },
+  "split_counts": {
+    "train": 4365,
+    "val": 363,
+    "test": 922
+  },
+  "reconstructed_file_and_array_hashes_match": true,
+  "original_masks_unchanged": true,
+  "original_l4s_manifests_and_assignments_unchanged": true,
+  "known_groups_disjoint": true,
+  "joint_training_enabled": false,
+  "physical_band_equivalence_verified": false,
+  "gallery_train_ids": [
+    "point_0176",
+    "point_0247",
+    "point_0671",
+    "point_0160"
+  ]
+}

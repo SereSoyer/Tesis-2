@@ -1,0 +1,94 @@
+{
+  "samples": 838,
+  "files": 5028,
+  "bands": {
+    "B1": {
+      "mean_dn": 933.3984948289578,
+      "median_image_median": 908.0,
+      "min_dn": 0.0,
+      "max_dn": 5708.0,
+      "descriptions": [
+        "[\"layer\"]"
+      ],
+      "grid6_exact_both_axes": 838,
+      "grid6_offgrid_median": [
+        0.0,
+        0.0
+      ]
+    },
+    "B7": {
+      "mean_dn": 2312.3926013789446,
+      "median_image_median": 2349.0,
+      "min_dn": 0.0,
+      "max_dn": 7579.0,
+      "descriptions": [
+        "[\"layer\"]"
+      ],
+      "grid6_exact_both_axes": 0,
+      "grid6_offgrid_median": [
+        0.6661317642480895,
+        0.6622761513021594
+      ]
+    },
+    "B8": {
+      "mean_dn": 2315.9775658976396,
+      "median_image_median": 2372.5,
+      "min_dn": 0.0,
+      "max_dn": 8930.0,
+      "descriptions": [
+        "[\"layer\"]"
+      ],
+      "grid6_exact_both_axes": 0,
+      "grid6_offgrid_median": [
+        0.8320865436076578,
+        0.8320863760584203
+      ]
+    },
+    "B9": {
+      "mean_dn": 861.3685000795546,
+      "median_image_median": 834.25,
+      "min_dn": 0.0,
+      "max_dn": 2972.0,
+      "descriptions": [
+        "[\"layer\"]"
+      ],
+      "grid6_exact_both_axes": 838,
+      "grid6_offgrid_median": [
+        0.0,
+        0.0
+      ]
+    },
+    "B10": {
+      "mean_dn": 12.804708459294618,
+      "median_image_median": 10.0,
+      "min_dn": 0.0,
+      "max_dn": 275.0,
+      "descriptions": [
+        "[\"layer\"]"
+      ],
+      "grid6_exact_both_axes": 837,
+      "grid6_offgrid_median": [
+        0.0,
+        0.0
+      ]
+    },
+    "B11": {
+      "mean_dn": 1261.3485342879871,
+      "median_image_median": 1205.0,
+      "min_dn": 0.0,
+      "max_dn": 7280.0,
+      "descriptions": [
+        "[\"layer\"]"
+      ],
+      "grid6_exact_both_axes": 0,
+      "grid6_offgrid_median": [
+        0.6658781701340816,
+        0.662371727650068
+      ]
+    }
+  },
+  "status": "indirect_evidence_only",
+  "band_mapping_changed": false,
+  "training_enabled": false,
+  "caution": "Grid repetition and radiometry do not prove wavelength or source-scene identity."
+}

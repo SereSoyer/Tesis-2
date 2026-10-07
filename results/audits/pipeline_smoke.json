@@ -1,0 +1,99 @@
+{
+  "purpose": "technical_forward_only_random_weights_no_quality_claim",
+  "training_performed": false,
+  "ground_truth_masks_opened": false,
+  "sample_ids": [
+    "l4s_traindata_3",
+    "l4s_traindata_1"
+  ],
+  "labels": [
+    0.0,
+    1.0
+  ],
+  "shape": [
+    2,
+    14,
+    128,
+    128
+  ],
+  "dtype": "torch.float32",
+  "finite": true,
+  "models": {
+    "resnet18": {
+      "map_shape": [
+        2,
+        128,
+        128
+      ],
+      "native_shape": [
+        2,
+        4,
+        4
+      ],
+      "finite": true,
+      "gradient_l1": [
+        11.24924373626709,
+        11.24924373626709
+      ]
+    },
+    "resnet50": {
+      "map_shape": [
+        2,
+        128,
+        128
+      ],
+      "native_shape": [
+        2,
+        4,
+        4
+      ],
+      "finite": true,
+      "gradient_l1": [
+        22.679584503173828,
+        22.679584503173828
+      ]
+    },
+    "deit_small": {
+      "map_shape": [
+        2,
+        128,
+        128
+      ],
+      "native_shape": [
+        2,
+        8,
+        8
+      ],
+      "finite": true,
+      "gradient_l1": [
+        1.2103147506713867,
+        1.2048474550247192
+      ]
+    },
+    "mit_b1": {
+      "map_shape": [
+        2,
+        128,
+        128
+      ],
+      "native_shape": [
+        2,
+        4,
+        4
+      ],
+      "finite": true,
+      "gradient_l1": [
+        11.385703086853027,
+        11.385703086853027
+      ]
+    }
+  },
+  "segmenter": {
+    "output_shape": [
+      2,
+      128,
+      128
+    ],
+    "finite": true
+  }
+}

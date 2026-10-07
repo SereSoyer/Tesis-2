@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "input_rows": 300,
+  "unique_positions": 100,
+  "tiff_hashes_checked": 8,
+  "reference_values_unique": 200,
+  "all_12_groups_complete": true,
+  "checks": [
+    "Reference TIFF hashes and values",
+    "Pixel identifiers and coordinates",
+    "Prepared sources and sampling metadata",
+    "Returned degree/radian consistency",
+    "Analysis reproduced across Python/NumPy environments within 1e-12",
+    "Rejected changed references, duplicates, inconsistent units and changed source",
+    "Absent point/source group reported as incomplete",
+    "Synthetic slope comparison uses common radian units"
+  ],
+  "analyzer_sha256": "18ff95fdaabd88c28612e8816beb1c801f1e9e25bc58df59b30f9dab13fdd90a",
+  "geoid_grid_sha256": "c02a6eb70a7a78efebe5adf3ade626eb75390e170bb8b3f36136a2c28f5326a0",
+  "not_certified": [
+    "Exact original DEM product",
+    "Original vertical datum",
+    "Every topographic pixel in the Roy collection"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "method": "Preserve original partitions; byte-identical copies of audited metadata CSVs",
+  "random_split": false,
+  "split_seed": null,
+  "training_performed": false,
+  "limitations": "Exact duplicates checked from audit hashes; geographic independence and overlapping patches are not established. Raw images must remain unchanged since auditing.",
+  "partitions": [
+    {
+      "split": "train",
+      "source_split": "TrainData",
+      "samples": 3799,
+      "positive": 2231,
+      "negative": 1568,
+      "sha256": "9b95000c5e10eb0aa83dcd915c65132ce899a8dc8c26d7d317edddc49ddc232c"
+    },
+    {
+      "split": "val",
+      "source_split": "ValidData",
+      "samples": 245,
+      "positive": 146,
+      "negative": 99,
+      "sha256": "b6f9efd87d2984656638228e08d68760aca6a9cc79ab8fd013ad5a8169d10b9c"
+    },
+    {
+      "split": "test",
+      "source_split": "TestData",
+      "samples": 800,
+      "positive": 536,
+      "negative": 264,
+      "sha256": "13af81b5d6fc7bafd68b0b4d9e04f2d72b4b3f8576fad79da210b1734240d55a"
+    }
+  ]
+}
